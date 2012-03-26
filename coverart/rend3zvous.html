@@ -15,20 +15,6 @@
       body {
         padding-top: 60px;
         padding-bottom: 40px;
-
-		.gallery {
-		  position: relative;
-		  left: -240px;
-		  width: 970px;
-		}
-
-		.content .gallery img {
-		  display: inline;
-		  width: 226px;
-		  height: 180px;
-		  border: solid 2px #ccc;
-		  margin-right: 10px;
-		  margin-bottom: 8px;
 		}
       }
     </style>
@@ -59,16 +45,28 @@
 	      </div>
 	    </div>
 	<!-- END - NAVBAR -->
-
-<div class="container">
-	<h1>Ren<strong>d3</strong>zvous</h1>
-	<div class="row">
+	
+	<div class="container">
+		<h1>Ren<strong>d3</strong>zvous</h1>
 		<h2>A simple population bar chart, from the examples of d3.js</h2>
-	<div class="span12">
-		<div class='gallery' id='chart'> </div><link href='../assets/css/population.css' rel='stylesheet' type='text/css' />
-		<script src='population.js' type='text/javascript'> </script>
-		<p>Data from the <a href='http://ipums.org/'>Minnesota Population Center</a>. Use the arrow keys to change the displayed year. The blue bars are the male population for each five-year age bracket, while the pink bars are the female population; the bars are partially transparent so that you can see how they overlap, unlike the traditional <a href='http://en.wikipedia.org/wiki/Population_pyramid'>side-by-side</a> display which makes it difficult to compare the relative distribution of the sexes.</p>
+	<!-- Begin Splash Hero Unit -->
+	<div class="hero-unit-modified">
+		<br>	
+		<h1>Hello, World!</h1>
+		<br>
+        <p><strong>My name is Brian. I'm learning about science, medicine, and programming. 
+		   <br><br>
+		   This is a place where I put things, write things, and make things</strong>
+		   <br><br>
+		</p>
+		<br>
+		<div class="chart" id="chart">
+		<link href='../assets/css/population-local.css' rel='stylesheet' type='text/css'></link>
+		<script src='population-local.js' type='text/javascript'> </script>
+		</div>
 	</div>
+	<!-- End Splash Hero Unit-->
+	<p>Data from the <a href='http://ipums.org/'>Minnesota Population Center</a>. Use the arrow keys to change the displayed year. The blue bars are the male population for each five-year age bracket, while the pink bars are the female population; the bars are partially transparent so that you can see how they overlap, unlike the traditional <a href='http://en.wikipedia.org/wiki/Population_pyramid'>side-by-side</a> display which makes it difficult to compare the relative distribution of the sexes.</p>
 	</div>
 	<hr>
 	<footer></footer>

@@ -24,7 +24,7 @@ var title = svg.append("text")
     .attr("dy", ".71em")
     .attr("transform", "translate(" + x(1) + "," + y(1) + ")scale(-1,-1)");
 
-d3.csv("coverart/population.csv", function(data) {
+d3.csv("population.csv", function(data) {
 
   // Convert strings to numbers.
   data.forEach(function(d) {
