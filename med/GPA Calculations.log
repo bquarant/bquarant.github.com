@@ -233,3 +233,4 @@ Ho: diff = 0                                     degrees of freedom =      189
     Ha: diff < 0                 Ha: diff != 0                 Ha: diff > 0
  Pr(T < t) = 0.0167         Pr(|T| > |t|) = 0.0334          Pr(T > t) = 0.9833
 
+. exit
