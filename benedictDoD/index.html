@@ -18,7 +18,7 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <title>Speech</title>
+    <title>Symbol Digits Modality Test</title>
 </head>
 <script type="text/javascript" charset="utf-8">
     function onChange() {
@@ -27,19 +27,17 @@
 </script>
 <body>
 	<div class="container">
-	<h2>Simple Digits Modality Test <small> Proof of Concept </small></h2>
+	<h2>Symbol Digits Modality Test <small> Proof of Concept </small></h2>
 	<br>
 	<p>This is a very simple proof-of-concept of voice recognition and machine translation for data capture using Google/Webkit's <code>x-webkit-speech</code> input methods.
 	<br><br>
 	<p>First series of questions...</p>
-    <input id="speechInput" type="text" style="font-size:15px;"
-           x-webkit-speech onwebkitspeechchange="onChange()" />
+    <input id="speechInput" type="text" style="font-size:15px;" x-webkit-speech onwebkitspeechchange="onChange()" />
 	<br>
 	<p>Second series of questions...</p>
-	    <input id="speechInput2" type="text" style="font-size:15px;"
-	       x-webkit-speech onwebkitspeechchange="onChange()" />
+	    <input id="speechInput2" type="text" style="font-size:15px;" x-webkit-speech onwebkitspeechchange="onChange()" />
 	<br><br>
-	<div class="btn btn-primary">Submit</div> <div class="btn">Clear</div>
+	<button type="submit" class="btn btn-primary">Submit</button> <button class="btn">Clear</button>
 	<br><br>
 	<ul><strong>List of Concerns:</strong>
 		<li>Question format: How many data points should we be capturing at once?</li> 
