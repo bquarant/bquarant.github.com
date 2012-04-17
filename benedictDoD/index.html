@@ -31,19 +31,23 @@
 	<br>
 	<p>This is a very simple proof-of-concept of voice recognition and machine translation for data capture using Google/Webkit's <code>x-webkit-speech</code> input methods.
 	<br><br>
-	<p>First Question:</p>
+	<p>First series of questions...</p>
     <input id="speechInput" type="text" style="font-size:15px;"
            x-webkit-speech onwebkitspeechchange="onChange()" />
 	<br>
 	<p>Second Question:</p>
-	    <input id="speechInpu2t" type="text" style="font-size:15px;"
+	    <input id="speechInput2" type="text" style="font-size:15px;"
 	       x-webkit-speech onwebkitspeechchange="onChange()" />
-
+	<br><br>
+	<div class="btn btn-primary">Submit</div> <div class="btn">Clear</div>
 	<br><br>
 	<ul><strong>List of Concerns:</strong>
-		<li>Question format: How many data points should we be capturing at once? We can use basic string manipulation to chop up the resulting list of numbers and construct variables from them...</li>
-		<li>Major limitation: Webkit enabled Browsers...</li>
+		<li>Question format: How many data points should we be capturing at once?</li> 
+		<li>We can use basic string manipulation to chop up the resulting list of numbers and construct variables from them...</li>
+		<li>Major limitation: Webkit enabled Browsers: <a href="http://google.com/chrome/">Google Chrome</a>, Safari, <a href="http://en.wikipedia.org/wiki/List_of_web_browsers#WebKit-based">more...</a></li>
 	</ul>
+	<hr>
+	<footer>Code by Brian Quaranto 2012</footer>
 	</div>
 </body>
 </html>
