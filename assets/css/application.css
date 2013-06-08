@@ -4,11 +4,19 @@ body {
 }
 
 .wip h2 {
-	text-align: center; font-weight: 300; color: #898989;
+	text-align: center; font-weight: 500; color: #2C3E50;
+}
+
+.wip h2 small{
+	font-weight: 100;
+	color: #34495E;
 }
 
 .wip hr {
-	color: #999999; 
-	border: 1px dotted;
+	color: #95A5A6; 
+	border: 3px dashed;
+	width: 80%;
+	position:relative;
+	margin: 15px auto;
 }
 
