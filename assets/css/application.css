@@ -2,3 +2,13 @@ body {
   padding-top: 60px;
   padding-bottom: 40px;
 }
+
+.wip h2 {
+	text-align: center; font-weight: 300; color: #898989;
+}
+
+.wip hr {
+	color: #999999; 
+	border: 1px dotted;
+}
+
