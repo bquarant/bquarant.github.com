@@ -7,6 +7,11 @@ body {
 	text-align: center; font-weight: 500; color: #2C3E50;
 }
 
+img {
+  display: block;
+  margin: 0 auto;
+}	
+
 .wip h2 small{
 	font-weight: 100;
 	color: #34495E;
