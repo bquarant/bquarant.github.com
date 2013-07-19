@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link href="../assets/css/application.css" rel="stylesheet">
+<link href="../assets/css/font-awesome.css" rel="stylesheet">
+<link href="../assets/css/bootstrap.css" rel="stylesheet">
+<script src="chart.js"></script>
+
+<!--
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+-->
+
+<body>
+<div class="container">
+<div class="row">
+	<h1>Medical School Financing Dashboard<small class="pull-right">18 July 2013</small></h1>
+</div>
+<div class="row">
+	<div class="span8">
+	<h5>Expenses vs. Loans</h5>
+	<canvas id="canvas" height="450" width="780"></canvas>
+	<script>
+		var barChartData = {
+			labels : ["Fall 2013","Spring 2014","Fall 2014","Spring 2015","Fall 2015","Spring 2016","Fall 2016","Spring 2017"],
+			datasets : [
+				{
+					//Internal Expenses: Tuition, Fees, Expenses paid to the medical school itself
+					fillColor : "rgba(155, 148, 220,0.5)",
+					strokeColor : "rgba(155, 148, 220,1)",
+					data : [17187.00,17187.00,0,0,0,0,0,0]
+				},
+				{
+					//External Expenses: Rent, Food, Loans, etc..
+					fillColor : "rgba(180, 176, 220,0.5)",
+					strokeColor : "rgba(180, 176, 220,1)",
+					data : [11435.00,11435.00,0,00,0,0,0]
+				},
+				{
+					//Government Loans
+					fillColor : "rgba(244, 223, 152,0.5)",
+					strokeColor : "rgba(244, 223, 1525,1)",
+					data : [20250.00,20250.00,0,0,0,0,0,0]
+				},
+				{
+					//Private Loans
+					fillColor : "rgba(244, 231, 187,0.5)",
+					strokeColor : "rgba(244, 231, 187,1)",
+					data : [8372.00,8372.00,0,0,0,0,0,0]
+				}
+			]
+			
+		}
+
+	var myLine = new Chart(document.getElementById("canvas").getContext("2d")).Bar(barChartData);
+	</script>
+	</div>
+	<div class="span4">
+		<h5>Yearly Summary</h5>
+		<canvas id="canvas2" height="150" width="300"></canvas>
+		<script>
+			var lineChartData = {
+				labels : ["MS1","MS2","MS3","MS4"],
+				datasets : [
+					{
+						//Expenses
+						fillColor : "rgba(220,220,220,0.5)",
+						strokeColor : "rgba(220,220,220,1)",
+						pointColor : "rgba(220,220,220,1)",
+						pointStrokeColor : "#fff",
+						data : [57244,0,0,0]
+					},
+					{
+						//Loans
+						fillColor : "rgba(151,187,205,0.5)",
+						strokeColor : "rgba(151,187,205,1)",
+						pointColor : "rgba(151,187,205,1)",
+						pointStrokeColor : "#fff",
+						data : [40500,0,0,0]
+					}
+				]
+
+			}
+
+		var myLine = new Chart(document.getElementById("canvas2").getContext("2d")).Line(lineChartData);
+	</script>
+	<br><br>
+	<h5>Expense Breakdown</h5>
+	<canvas id="canvas3" height="220" width="250"></canvas>
+	<script>
+		var doughnutData = [
+				{	
+					value: 16095.00,
+					color:"#464646"
+				},
+				{
+					value : 5597.00,
+					color : "#626262"
+				},
+				{
+					value : 1765,
+					color : "#7D7D7D"
+				},
+				{
+					value : 1504,
+					color : "#959595"
+				},
+				{
+					value : 1414,
+					color : "#ACACAC"
+				},
+				{
+					value : 1155,
+					color : "#C2C2C2"
+				},
+				{
+					value : 816,
+					color : "#D7D7D7"
+				},
+				{
+					value : 125,
+					color : "#E1E1E1"
+				},
+				{
+					value : 113,
+					color : "#EBEBEB"
+				},
+				{
+					value : 38,
+					color : "#EBEBEB"
+				}
+			];
+
+	var myDoughnut = new Chart(document.getElementById("canvas3").getContext("2d")).Doughnut(doughnutData);
+	
+	</script>
+	</div>
+	<!--<iframe src="finances-chart.html" frameborder="0" scrolling="auto" marginheight="0" width="80%" height="560px"></iframe>-->
+</div>
+<div class="row">
+	<h2>Expenses</h2>
+	<table class="table table-bordered table-hover">
+	<tr><th>Description</td>
+		<th>Type</td>
+		<th>Fall 2013</td>
+		<th>Spring 2014</td>
+	</tr>
+	<tr><td>Tuition</td>
+		<td>Internal</td>
+		<td>$16,095.00</td>
+		<td>$16,095.00</td>
+	</tr>
+	<tr><td>Room</td>
+		<td>External</td>
+		<td>$5,597.00</td>
+		<td>$5,597.00</td>
+	</tr>
+	<tr><td>Board/Meals</td>
+		<td>External</td>
+		<td>$1,765.00</td>
+		<td>$1,765.00</td>
+	</tr>
+	<tr><td>Books and Supplies</td>
+		<td>External</td>
+		<td>$1,504.00</td>
+		<td>$1,504.00</td>
+	</tr>
+	<tr><td>Personal Expenses</td>
+		<td>External</td>
+		<td>$1,414.00</td>
+		<td>$1,414.00</td>
+	</tr>
+	<tr><td>Transportation</td>
+		<td>External</td>
+		<td>$1,155.00</td>
+		<td>$1,155.00</td
+	</tr>
+	<tr><td>Comprehensive Fees</td>
+		<td>Internal</td>
+		<td>$816.00</td>
+		<td>$816.00</td>
+	</tr>
+	<tr><td>Student Activity Fees</td>
+		<td>Internal</td>
+		<td>$125.00</td>
+		<td>$125.00</td>
+	</tr>
+	<tr><td>Academic Excellence and Success</td>
+		<td>Internal</td>
+		<td>$113.00</td>
+		<td>$113.00</td>
+	</tr>
+	<tr><td>Health Insurance</td>
+		<td>Internal</td>
+		<td>$38.00</td>
+		<td>$38.00</td>
+	</tr>
+</table>
+</div>
+
+<div class="row">
+<h2>Loans</h2>
+<table class="table table-bordered table-hover">
+<tr><th>Description</td>
+	<th>Type</td>
+	<th>Fall 2013</td>
+	<th>Spring 2014</td>
+</tr>
+<tr><td>Tuition</td>
+	<td>Internal</td>
+	<td>$16,095.00</td>
+	<td>$16,095.00</td>
+</tr>
+</table>
+</div>
+
+</div>
+</body>
+</html>
