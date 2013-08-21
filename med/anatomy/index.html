@@ -21,7 +21,7 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body class="page" data-spy="scroll" data-target="#page-nav" data-offset="50">
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -51,10 +51,10 @@
     </div>
 
     <div class="container">
-      <div class="row">
 		<br>
-		<div class="well col-md-3">
-			<ul class="nav nav-pills nav-stacked">
+		<div class="col-md-3">
+			<div id="page-nav">
+			<ul class="nav nav-pills nav-stacked affix">
 				<li class="disabled"><a>Overview - Block 1</a></li>
 				<li class="disabled"><a>Structure of the Vertebral Column</a></li>
 				<li class="disabled"><a>Muscles and Nerves of the Back</a></li>
@@ -67,8 +67,12 @@
 				<li class="disabled"><a>Thigh II / Knee</a></li>
 				<li class="disabled"><a>Leg and Foot</a></li>
 			</ul>
+			</div>
 		</div>
-		<div class="col-lg-7">
+		<div class="row">
+		<div class="col-lg-1">
+		</div>
+		<div class="col-lg-6">
 			<h2>Gross Human Anatomy</h2>
 			<!-- <h3>Overview - Block 1</h3> -->
 			<!-- <h3>Structure of the Vertebral Column</h3> -->
@@ -104,9 +108,9 @@
 							<li><em>intertubercular groove</em> - separates the greater and lesser tubercles, also known ass the bicipital groove</li>
 							<li><em>deltoid tuberosity</em> - ridge on lateral surface where deltoid musculature attaches</li>
 						</ul>
-						<li><strong>Movement of the humerus</strong> (proximal features, see forearm lecture for distal features)</li>
+						<li><strong>Muscles of the humerus</strong> (proximal features, see forearm lecture for distal features)</li>
 						<ul>
-							<li>Occur at the glenohumeral joint (a ball-and socket type joint) and are connected with the assistance of</li>
+							<li>Movements occur at the glenohumeral joint (a ball-and socket type joint) and are connected with the assistance of</li>
 							<ul>
 								<li><em>glenoid labrum</em> - rim of fibrocartilidge that makes a larger "cup" for the head of the humerus</li>
 								<li><em>articular capsule</em> - thin capsule surrounding the joint, attaches glenoid cavity to anatomical neck of the humerus. It is lined by a synovial membrane which is filled with synovial fluid to allow for joint lubrication, also known as a <strong>bursa</strong>. The anterior thickening of the articular capsule is also known as the glenohumeral ligament.</li>
@@ -135,7 +139,7 @@
 						</ul>
 						<li><strong>Movements and muscles of the shoulder</strong></li>
 						<ul>
-							<li>c <strong>General rule: flexion can be described as going from anatomical position to fetal position (with toes pointed), extension is going from fetal position back to anatomical position</strong></li>
+							<li><strong>General rule: flexion can be described as going from anatomical position to fetal position (with toes pointed), extension is going from fetal position back to anatomical position</strong></li>
 							<li>Movements of the humerus</li>
 								<ul>
 									<li><em>flexion</em> = swinging the arm anteriorly</li>
@@ -202,6 +206,15 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+	<script>
+	$('#sidebar').affix({
+    offset: {
+      top: 50
+    , bottom: function () {
+        return (this.bottom = $('.bs-footer').outerHeight(true))
+      }
+    }
+  })</script>
     <script src="../assets/js/jquery.js"></script>
     <script src="../assets/js/bootstrap.min.js"></script>
   </body>
