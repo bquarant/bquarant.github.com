@@ -2,55 +2,106 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Medical School Notes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Brian Quaranto">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.png">
 
-    <link href="../assets/css/bootstrap.css" rel="stylesheet">
-    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
-  </head>
-  <body>
-  <div class="container">
-   <div class="row"><div class="span12"><h2 style="text-align: center; font-weight: 300;"><a href="http://bquarant.github.io" style="text-decoration:none; color:black;">Medical School Notes</a><br><small style="font-weight: 300;">current status: just beginning...</small></h2></div></div>
-   <hr class="soften">
-   <div class="row-fluid">
-		<div class="span4">
-		</div>
-		<div class="span4">
-			<h3 style="font-weight: 300; text-align: center;">MS1 - Fall 2013</h3>
-				<center>
-				<ul style="list-style: none;">
-					<li><h5><a href="/med/anatomy">Gross Human Anatomy</a></h5></li>
-					<li><h5><a href="/med/fundo1">Fundamentals I</a></h5></li>
-					<li><h5><a href="/med/cpm">Clinical Practice of Medicine</a></h5></li>
-					<li><h5><a href="/med/medsoc">Medicine and Society</a></h5></li>
-				</ul>
-				</center>
-	 	</div>
-		<div class="span4 pull-right">
-         </div>
-   </div>
-	<br>
-		<br>	<br>	<br>	<br>
-	<hr class="soften">
-  </div>
-    <script src="assets/js/jquery.js"></script> 
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <title>Medical School Notes</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
     <![endif]-->
-	<script type="text/javascript">
-	  var _gauges = _gauges || [];
-	  (function() {
-	    var t   = document.createElement('script');
-	    t.type  = 'text/javascript';
-	    t.async = true;
-	    t.id    = 'gauges-tracker';
-	    t.setAttribute('data-site-id', '51ae6e73f5a1f54252000117');
-	    t.src = '//secure.gaug.es/track.js';
-	    var s = document.getElementsByTagName('script')[0];
-	    s.parentNode.insertBefore(t, s);
-	  })();
-	</script>
+  </head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Medical School Notes</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">MS1 <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Gross Human Anatomy</a></li>
+                <li><a href="#">Foundations I</a></li>
+                <li><a href="#">Clinical Practice of Medicine</a></li>
+                <li><a href="#">Fundamentals II</a></li>
+<!--            Placeholder for second semester stuff, good times...
+				<li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+-->
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">
+		<br>
+        <h1>Hello, future doctors!</h1>
+        <p></p>
+        <!-- Placeholder... provide some descriptive text!
+		<p><a class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+		-->
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+		<h3>Current courses</h3>
+        <div class="col-lg-4">
+          <h2>Gross Human Anatomy</h2>
+          <p>A study of the anatomical structure of the human body.</p>
+          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <h2>Foundations I</h2>
+          <p>The structure and functions of proteins and membranes and their relationships to disease - seeing the forest for the trees. </p>
+          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+       </div>
+        <div class="col-lg-4">
+          <h2>CPM I</h2>
+          <p>Learning the art of physical diagnosis and the skills of the doctor-patient encounter</p>
+          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer class="pull-right">
+        <p><span class="glyphicon glyphicon-eye-open"></span> <a href="http://github.com/bquarant">Brian Quaranto</a></p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
   </body>
 </html>
