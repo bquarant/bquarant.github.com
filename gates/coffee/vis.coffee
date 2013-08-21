@@ -157,7 +157,7 @@ class BubbleChart
 
   # Method to display year titles
   display_years: () =>
-    years_x = {"2003": 160, "2009": @width / 2, "2010": @width - 160}
+    years_x = {"2003w": 160, "2009": @width / 2, "2010": @width - 160}
     years_data = d3.keys(years_x)
     years = @vis.selectAll(".years")
       .data(years_data)
