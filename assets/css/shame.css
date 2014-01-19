@@ -1,3 +1,9 @@
+/*
+Attempt to stop Safari from printing a href urls...
+*/
+
+a:after, a:link:after, a:visited:after { content:" "; }
+
 .title{
 	font-weight:bold;
 	font-size: 102%;
