@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>d3 choropleth map</title>
+    <title>WNY Human Rights Clinic</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -16,21 +16,20 @@
     <script src="http://d3js.org/topojson.v1.min.js"></script>
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic&subset=latin,greek-ext' rel='stylesheet' type='text/css'>
-
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>
 
     <style>
-
-      #footer font-family: 'Open Sans Condensed', sans-serif;
-
-      #wrapper {
-          width: 960px;
-          margin: -30px auto 0;
+      .navbar-brand {
+          font-family: 'Open Sans Condensed', sans-serif;
+          color: black !important;
+          font-size: 24px;
+          font-weight: 700;
       }
-      #map {
-          width: 960px;
-          height: 580px;
-          position: relative;
+      .navbar{
+            font-family: 'Open Sans Condensed', sans-serif;
       }
+
+
       .stroke {
         fill: none;
         stroke: #888;
@@ -61,18 +60,22 @@
           fill: steelblue;
           stroke: white;
       }
-      #play, #clock {
-      	position: absolute;
-      	top: 15px;
-      }
-      #play {
-      	left: 15px;
-      }
-      #clock {
-      	left: 65px;
-      }
+      .svg-container {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        padding-bottom: 100%; /* aspect ratio */
+        vertical-align: top;
+        overflow: hidden;
+        }
+     .svg-content-responsive {
+        display: inline-block;
+        position: relative;
+        top: 10px;
+        left: 0;
+        width: 100%;
+        }
     </style>
-
 
 </head>
 
@@ -93,7 +96,7 @@
           <a class="navbar-brand" href="#">WNY Human Rights Clinic</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
+          <ul class="nav navbar-nav pull-right">
             <li><a href="#about">What we do</a></li>
             <li><a href="#contact">Get in touch</a></li>
             <li class="dropdown">
@@ -113,13 +116,8 @@
       </div>
     </nav>
 
-
-	<div id="wrapper">
-   		<div id="map"></div>
-    <!--  <button id="play">play</button>
-          <span id="clock">year</span>
-    -->
-	</div>
+    <div id="map"></div>
+        <div class=""><p>test</p></div>
 
     <footer class="footer">
       <div class="container">
@@ -142,11 +140,9 @@ function init() {
 
 function setMap() {
 
-  width = 960, height = 580;  // map width and height, matches
-
   projection = d3.geo.equirectangular()   // define our projection with parameters
-    .scale(170)
-    .translate([width / 2, height / 2])
+    .scale(140)
+    .translate([290, 220])
     .precision(.1);
 
   path = d3.geo.path()  // create path generator function
@@ -154,9 +150,12 @@ function setMap() {
 
   graticule = d3.geo.graticule(); // create a graticule
 
-  svg = d3.select("#map").append("svg")   // append a svg to our html div to hold our map
-      .attr("width", width)
-      .attr("height", height);
+  svg = d3.select("#map")   // append a svg to our html div to hold our map
+      .classed("svg-container", true)
+      .append("svg")
+      .attr("preserveAspectRatio", "xMinYMin meet")
+      .attr("viewBox", "0 0 600 400")
+      .classed("svg-content-responsive", true);
 
   svg.append("defs").append("path")   // prepare some svg for outer container of svg elements
       .datum({type: "Sphere"})
