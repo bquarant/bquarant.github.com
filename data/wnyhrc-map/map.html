@@ -84,7 +84,7 @@ function setMap() {
 
   width = 960, height = 580;  // map width and height, matches
 
-  projection = d3.geo.eckert5()   // define our projection with parameters
+  projection = d3.geo.fahey()   // define our projection with parameters
     .scale(170)
     .translate([width / 2, height / 2])
     .precision(.1);
@@ -120,7 +120,7 @@ function loadData() {
 
   queue()   // queue function loads all external data files asynchronously
     .defer(d3.json, "world-topo.json")  // our geometries
-    .defer(d3.csv, "countriesRandom.csv")  // and associated data in csv file
+    .defer(d3.csv, "countriesServed.csv")  // and associated data in csv file
     .await(processData);   // once all files are loaded, call the processData function passing
                            // the loaded objects as arguments
 }
