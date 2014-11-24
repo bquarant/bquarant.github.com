@@ -1,0 +1,109 @@
+<html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+        <script src="/assets/js/d3.v2.js" charset="utf-8"></script>
+    </head>
+
+    <body>
+
+        <br> Chapter 6: Drawing with Data
+        <br>
+        <script type="text/javascript">
+            var w = 500;
+            var h = 100;
+
+            var svg = d3.select
+        </script>
+        <script type="text/javascript">
+            var w = 500;
+            var h = 50;
+
+            var svg = d3.select("body")
+                .append("svg")
+                .attr("width", w)   // <-- Here
+                .attr("height", h);
+
+            var dataset = [];
+            for (var i = 0; i < 8; i++) {
+                var newNumber = Math.floor(Math.random() * 20);
+                dataset.push(newNumber);
+                }
+
+            var circles = svg.selectAll("circle")
+                 .data(dataset)
+                 .enter()
+                 .append("circle");
+
+            circles.attr("cx", function(d, i) {
+                return (i * 50) + 25;
+                })
+               .attr("cy", h/2)
+               .attr("r", function(d) {
+                    return d;
+                   });
+
+            d3.select("body").append("svg");
+        </script>
+
+
+
+        <script type="text/javascript">
+        //Chapter 6: Drawing with Data
+
+            var dataset = [];
+            for (var i = 0; i < 25; i++) {
+                var newNumber = Math.floor(Math.random() * 30);
+                dataset.push(newNumber);
+                }
+
+            d3.select("body").selectAll("div")
+                .data(dataset)
+                .enter()
+                .append("div")
+                .attr("class", "bar")
+                .style("height", function(d) {
+                        var barHeight = d * 5;
+                        return barHeight + "px";
+                      });
+        </script>
+
+        <style type="text/css">
+        div.bar {
+            display: inline-block;
+            width: 20px;
+            background-color: orange;
+            margin-right: 2px;
+                }
+        </style>
+
+
+        <div class="bar"></div>
+
+        <br>
+        <br> Chapter 5:
+
+        <script type="text/javascript">
+        //Chapter 5: Completed
+
+            var dataset = [ 5, 10, 15, 20, 25, 30, 30 ];
+
+            d3.select("body").selectAll("p")
+                .data(dataset)
+                .enter()
+                .append("p")
+                .text(function(d) {
+                    return "I can count up to " + d;})
+                .style("color", function(d) {
+                    if (d > 15) {   //Threshold of 15
+                        return "red";
+                        } else {
+                        return "black";
+                    }});
+
+        </script>
+    </body>
+</html>
+

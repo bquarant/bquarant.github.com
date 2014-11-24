@@ -7,7 +7,7 @@
     <title>Data Lab</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,19 +20,22 @@
 
   <body>
     <div class="container">
-    <h1>Data Lab</h1>
-        <ul>
-            <li><a href="wnyhrc-map">WNYHRC Clients</a></li>
-            <li><a href="iron-temple">Kettlebell Visualizations</a></li>
-            <li><a href="macros">Interactive macronutrient streamgraph</a></li>
-        </ul>
+    <h1>WNYHRC Client Distribution</h1>
+
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://d3js.org/topojson.v1.min.js"></script>
+    <script src="datamaps.world.min.js"></script>
+        <div id="container" style="position: relative; width: 500px; height: 300px;"></div>
+        <script>
+            var map = new Datamap({element: document.getElementById('container')});
+        </script>
     </div>
 
 
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+     <script src="../js/bootstrap.min.js"></script>
   </body>
 
 </html>
