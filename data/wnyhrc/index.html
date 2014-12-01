@@ -6,21 +6,34 @@
 
     <title>WNY Human Rights Clinic</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
+    <!-- Load local resources -->e
+    <link rel="stylesheet" href="assets/bootstrap.min.css">
+    <script src="assets/jquery.min.js"></script>
+    <script src="assets/bootstrap.min.js"></script>
+    <script src="assets/d3.v3.min.js"></script>
+    <script src="assets/d3.geo.projection.v0.min.js"></script>
+    <script src="assets/queue.v1.min.js"></script>
+    <script src="assets/topojson.v1.min.js"></script>
+
+
+    <!-- Load remote resources
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script src="http://d3js.org/d3.geo.projection.v0.min.js"></script>
     <script src="http://d3js.org/queue.v1.min.js"></script>
     <script src="http://d3js.org/topojson.v1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    -->
 
+    <!-- Figure out fonting after content is built...
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic&subset=latin,greek-ext' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>
+    -->
 
     <style>
       .navbar-brand {
-          font-family: 'Open Sans Condensed', sans-serif;
           color: black !important;
           font-size: 24px;
           font-weight: 700;
@@ -64,7 +77,6 @@
         display: inline-block;
         position: relative;
         width: 100%;
-        padding-bottom: 100%; /* aspect ratio */
         vertical-align: top;
         overflow: hidden;
         }
@@ -97,18 +109,37 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav pull-right">
-            <li><a href="#about">What we do</a></li>
-            <li><a href="#contact">Get in touch</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Who we are <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Clinic Leadership</a></li> <!-- Create static page! -->
+                <li><a href="#">Faculty Advisory Board</a></li> <!-- Create static page! -->
+                <li><a href="#">Volunteer Evaluators</a></li> <!-- Create static page! -->
+                <li><a href="#">The Community</a></li> <!-- Create static page! -->
+              </ul>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Get involved <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Medical students</a></li> <!-- Create static page! -->
+                <li><a href="#">Clinicians</a></li> <!-- Create static page! -->
+                <li><a href="#">Lawyers and Law Firms</a></li> <!-- Create static page! -->
+                <li><a href="#">Law students</a></li> <!-- Create static page! -->
+                <li><a href="#">NGOs and Not-for-profits</a></li> <!-- Create static page! -->
+              </ul>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Resources <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
+                <li class="divider"></li>
+                <li class="dropdown-header">Local</li>
                 <li><a href="#">Action</a></li>
                 <li><a href="#">Another action</a></li>
                 <li><a href="#">Something else here</a></li>
                 <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
+                <li class="dropdown-header">National</li>
                 <li><a href="#">Separated link</a></li>
                 <li><a href="#">One more separated link</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">International</li>
               </ul>
             </li>
           </ul>
@@ -117,7 +148,12 @@
     </nav>
 
     <div id="map"></div>
-        <div class=""><p>test</p></div>
+
+
+    <div class="container">
+
+    </div>
+
 
     <footer class="footer">
       <div class="container">
@@ -140,9 +176,9 @@ function init() {
 
 function setMap() {
 
-  projection = d3.geo.equirectangular()   // define our projection with parameters
-    .scale(140)
-    .translate([290, 220])
+  projection = d3.geo.mercator()   // define our projection with parameters
+    .scale(100)
+    .translate([290, 200])
     .precision(.1);
 
   path = d3.geo.path()  // create path generator function
@@ -293,8 +329,8 @@ function getDataRange() {
 window.onload = init();  // magic starts here
 
 </script>
-     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
 </body>
 
 </html>
