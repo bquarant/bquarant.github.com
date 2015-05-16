@@ -1,7 +1,4 @@
-/*
-Attempt to stop Safari from printing a href urls...
-*/
-
+/* don't print urls */
 a:after, a:link:after, a:visited:after { content:" "; }
 
 .title{
@@ -10,45 +7,19 @@ a:after, a:link:after, a:visited:after { content:" "; }
 }
 .details
 {
-	margin-left: 1%;
+
 }
 
 html	{
 	height: 100%;
 	}
 
-	
-
 body	{
 	border-left: 33px solid white ;
 	min-height: 100%;
 	padding: 10px;
 }
-	
-/*
-	body {
-		padding: 40px;
-		overflow-x: hidden; 
-		-webkit-box-shadow:
-
-			inset #8ce9ff 0 0 0 16px,
-			inset #88e2f7 0 0 0 17px,
-			inset #c5f4ff 0 0 0 22px,
-			inset #bfecf7 0 0 0 23px;
-		-moz-box-shadow:
-			inset #8ce9ff 0 0 0 16px,
-			inset #88e2f7 0 0 0 17px,
-			inset #c5f4ff 0 0 0 22px,
-			inset #bfecf7 0 0 0 23px;
-		box-shadow:
-			inset #8ce9ff 0 0 0 16px,
-			inset #88e2f7 0 0 0 17px,
-			inset #c5f4ff 0 0 0 22px,
-			inset #bfecf7 0 0 0 23px;
-	
-	
-	}
-*/	
+		
 * html body	{
 	height: 100%;
 }
