@@ -1,3 +1,5 @@
+* {font-family: 'Open Sans', sans-serif;}
+
 /* don't print urls */
 a:after, a:link:after, a:visited:after { content:" "; }
 
@@ -8,5 +10,6 @@ a:after, a:link:after, a:visited:after { content:" "; }
 
 .details{}
 
-.fixed { height:100vh; overflow:hidden; background:; }
+.fixed { :100vh; overflow:hidden; background:; }
+
 .scrollit { height:100vh; overflow-y:scroll; background:; }
