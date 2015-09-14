@@ -12,4 +12,12 @@ a:after, a:link:after, a:visited:after { content:" "; }
 
 .fixed { :100vh; overflow:hidden; background:; }
 
-.scrollit { height:100vh; overflow-y:scroll; background:; }
+@media screen{
+	.scrollit { height:100vh; overflow-y:scroll; background:; }
+}
+
+@media print {
+.scrollit { height:; overflow-y:hidden; background:; }
+
+* {font-size: 9.5px;}	
+}
