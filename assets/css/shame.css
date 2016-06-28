@@ -27,3 +27,11 @@ tr.spaceUnder > td
 {
   padding-bottom: 5px;
 }
+
+ @media print {
+
+   .dontPrint {
+       display:none;
+    }
+
+    }
