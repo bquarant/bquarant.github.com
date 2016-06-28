@@ -21,3 +21,9 @@ a:after, a:link:after, a:visited:after { content:" "; }
 
 * {font-size: 9.5px;}	
 }
+
+/* Apply padding to td elements that are direct children of the tr element. */
+tr.spaceUnder > td
+{
+  padding-bottom: 5px;
+}
