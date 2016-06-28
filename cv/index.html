@@ -6,29 +6,35 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 	<meta name="author" content="Brian Quaranto">
+    
+   
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"  media="all">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700,400' rel='stylesheet' type='text/css'>		
+    
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700,400' rel='stylesheet' type='text/css'>
+    	
 	<link href="../assets/css/shame.css" rel="stylesheet" media="all">
 </head>
 
 <body>
 <div class="container">
 
-<!-- Name and Photo -->
+<!-- Header padding, should convert to CSS... -->
 <div class="row">
-<br>
-<table>
-    <tr>
-       <!-- <td><img src="../assets/img/brianqua.jpg" alt="Brian R. Quaranto" height=120px width=120px class="img-circle img-responsive"><span></td>-->
-        <td><h1>Brian R. Quaranto</h1></td>
-    </tr>
-</table>
+<br><br><br>
 </div>
 
-<!-- Contact Information Table -->
 <div class="row">
-            <table>
+ <div class="col-xs-1 col-sm-1 col-md-1"></div> <!-- one column width padding on left... --->
+ <div class="col-xs-10 col-sm-10 col-md-10"> <!-- crazy idea div... -->
+     
+<!-- Name and Photo -->
+<div class="row">
+     <div class="col-xs-2 col-sm-2 col-md-2"><img src="../assets/img/brianqua.jpg" alt="..." class="img-circle img-responsive" style="margin-left:-20px;"></div>
+     <div class="col-xs-6 col-sm-6 col-md-6">
+            <h1>Brian R. Quaranto</h1>
+            <!-- Contact Information Table -->
+              <table>
                 <tr>
                     <td><center><span class="glyphicon glyphicon-home" aria-hidden="true"></span></center></td>
                     <td>&nbsp;&nbsp;&nbsp;</td>
@@ -49,11 +55,21 @@
                     <td>&nbsp;&nbsp;&nbsp;</td>
                     <td>+1 (716) 417-7531</td>
                 </tr>
-            </table>
-</div>	
-			
+            </table>   
+     </div>
+</div>
+
+<!-- About -->
+<div class="row"><br><h5>ABOUT</h5></div>
+	<div class="row">
+			<div class="col-xs-2 col-sm-2 col-md-2"></div>
+			<div class="col-xs-9 col-sm-10 col-md-10">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam illum, sunt ipsam architecto autem asperiores atque a dolore, quae ad, nam voluptates quo eveniet delectus. Maxime eligendi, laudantium ratione a. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt officia praesentium eius, animi suscipit ea dolor aliquid, voluptatum nemo laboriosam quidem cumque doloribus repellat ipsa molestiae esse beatae nulla fugit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, error commodi necessitatibus sequi corporis ut expedita at, minima, sapiente quam fuga? Modi hic unde harum laudantium dolores. Illum, hic, ipsam.</p>
+			</div>
+     </div>
+
 <!-- Education -->
-<div class="row" style=""><br><h5>EDUCATION</h5></div>
+<div class="row"><br><h5>EDUCATION</h5></div>
 	<div class="row">
 			<div class="col-xs-2 col-sm-2 col-md-2"> 2013 - present </div>
 			<div class="col-xs-9 col-sm-10 col-md-10">
@@ -414,8 +430,12 @@
 <!-- Footer -->
 <div class="row">Available online @ <a href="http://bquarant.github.io/cv">http://bquarant.github.io/cv</a></div>
 <div class="row">Last update: 6/28/2016</div>
-			
-</div>
+
+<div class="col-xs-1 col-sm-1 col-md-1"></div> <!-- one column width padding on left... --->
+</div> <!-- close wacky idea div -->
+</div> <!-- close wacky idea row -->
+
+</div> <!-- close container -->
 
 <script type="text/javascript">
   var _gauges = _gauges || [];
