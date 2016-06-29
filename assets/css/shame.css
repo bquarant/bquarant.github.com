@@ -19,7 +19,7 @@ a:after, a:link:after, a:visited:after { content:" "; }
 @media print {
 .scrollit { height:; overflow-y:hidden; background:; }
 
-* {font-size: 9.5px;}	
+* {font-size: 10px;}	
 }
 
 /* Apply padding to td elements that are direct children of the tr element. */
