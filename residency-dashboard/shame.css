@@ -1,3 +1,5 @@
+* {font-family: 'Open Sans', sans-serif;}
+
 body {
     padding: 0;
     margin: 0;
@@ -5,4 +7,41 @@ body {
 html, body, #mapid {
     height: 100%;
     width: 100%;
+}
+
+#mapid
+{
+	z-index: 0;
+}
+
+#info {
+	z-index: 2;
+	background: rgba(255, 255, 255, 0.75);
+	position: fixed;
+	display: table;
+	top: 1%;
+	left: 5%;
+	padding: 6px 8px 4px 2px;
+	border-radius: 5px;
+}
+#info h4:first-child {
+	margin: 0 0 5px;
+}
+#info h4 {
+	margin: 5px 0 5px;
+}
+#info h4 code {
+	font-weight: normal;
+}
+#info .provider-names {
+	padding-bottom: 5px;
+	display: block;
+	padding-left: 15px;
+}
+#info pre {
+	margin: 0;
+}
+#info pre code {
+	font-size: 10px;
+	overflow-x: auto;
 }

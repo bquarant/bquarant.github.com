@@ -8,6 +8,8 @@
     <title>BQ-GS-ROL-MAP</title>
 
     <!-- Bootstrap -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -22,11 +24,105 @@
 	
 	<!-- Other style sheets -->	
 	<link href="shame.css" rel="stylesheet" media="all">
+	<script src="https://use.fontawesome.com/8c370e17bd.js"></script>
+   	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700,400' rel='stylesheet' type='text/css'> 
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script>
 	
   </head>
-  <body>
-	<div id="mapid"></div>
+  <body>	
+  	<div id="info">
+  		<h4><i class="fa fa-map-o fa-lg"></i> &nbsp;<a href="../residency-dashboard">BQ Residency Application Dashboard</a></h4>
 
+<!-- DISPLAY CURRENT DATE / TIME -->
+<br><i class="fa fa-clock-o fa-lg"></i> &nbsp;
+<span id="clock" data-date="Sat Mar 24 2012 08:42:14 GMT-0400 (EDT)"></span></h1>    
+    <script>
+      $(document).ready(function(){
+        var clock = $('#clock'),
+            date = moment().format('MMMM Do YYYY, h:mm:ss a'),
+            update = function(){
+                       clock.html(date);
+                     };
+        update();
+        setInterval(update, 60000);
+      });
+</script>
+
+<!-- DISPLAY TIME SINCE SUBMISSION -->
+<br>Since ERAS:
+<span id="eras" data-date="Tue Sep 20 2016 01:39:14 GMT-0400 (EDT)"></span></h1>    
+    <script>
+      $(document).ready(function(){
+        var eras = $('#eras'),
+            date = moment(new Date(eras.attr('data-date'))),
+            update = function(){
+                       eras.html(date.fromNow());
+                     };
+        update();
+        setInterval(update, 60000);
+      });
+</script>
+	  
+
+<!-- DISPLAY TIME UNTIL ROL Opens -->
+<br>NRMP ROL due:
+<span id="nrmp" data-date="Feb 22 2017 21:00:00 GMT-0400 (EDT)"></span></h1>    
+    <script>
+      $(document).ready(function(){
+        var nrmp = $('#nrmp'),
+            date = moment(new Date(nrmp.attr('data-date'))),
+            update = function(){
+                       nrmp.html(date.fromNow());
+                     };
+        update();
+        setInterval(update, 60000);
+      });
+</script>
+	  
+
+<!-- DISPLAY TIME TIL MATCH DAY -->
+<br>Match Day:
+<span id="match" data-date="Mar 17 2017 12:00:00 GMT-0400 (EDT)"></span></h1>    
+    <script>
+      $(document).ready(function(){
+        var match = $('#match'),
+            date = moment(new Date(match.attr('data-date'))),
+            update = function(){
+                       match.html(date.fromNow());
+                     };
+        
+        update();
+        setInterval(update, 60000);
+      });
+</script>
+			<br>
+			<br><i class="fa fa-hospital-o fa-lg"></i>&nbsp;<strong>Program Count</strong>
+			<table class="table-condensed">
+				<tr>
+					<td>Applied</td>
+					<td>75</td>
+				</tr>
+				<tr>
+					<td>Rejected</td>
+					<td>0</td>
+				</tr>
+				<tr>
+					<td>Interview Invites</td>
+					<td>0</td>
+				</tr>
+				<tr>
+					<td>Interviews</td>
+					<td>0</td>
+				</tr>
+				<tr>
+					<td>ROL Count</td>
+					<td>0</td>
+				</tr>
+			</table>
+  	</div>
+
+	<div id="mapid"></div>
+	<div id='test'></div>	
 	<script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
 	<script>
 
@@ -118,6 +214,5 @@
 
 		var popup = L.popup();
 	</script>
-		
   </body>
 </html>
