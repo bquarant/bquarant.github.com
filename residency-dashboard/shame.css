@@ -24,19 +24,12 @@ html, body, #mapid {
 	padding: 6px 8px 4px 2px;
 	border-radius: 5px;
 }
-#info h4:first-child {
-	margin: 0 0 5px;
-}
+
 #info h4 {
 	margin: 5px 0 5px;
 }
 #info h4 code {
 	font-weight: normal;
-}
-#info .provider-names {
-	padding-bottom: 5px;
-	display: block;
-	padding-left: 15px;
 }
 #info pre {
 	margin: 0;
