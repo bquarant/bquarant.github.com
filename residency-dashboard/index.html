@@ -21,12 +21,18 @@
 	<!-- Leaflet Files -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+	<script src="Leaflet.MakiMarkers.js"></script>
 	
 	<!-- Other style sheets -->	
 	<link href="shame.css" rel="stylesheet" media="all">
 	<script src="https://use.fontawesome.com/8c370e17bd.js"></script>
    	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700,400' rel='stylesheet' type='text/css'> 
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script>
+	
+	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css">
+	
+	<link rel="stylesheet" href="css/leaflet-vector-markers.css">
+	<script src="js/leaflet-vector-markers.js"></script>
 	
   </head>
   <body>	
@@ -106,11 +112,11 @@
 				</tr>
 				<tr>
 					<td>Rejected</td>
-					<td>0</td>
+					<td>1</td>
 				</tr>
 				<tr>
 					<td>Interview Invites</td>
-					<td>0</td>
+					<td>1</td>
 				</tr>
 				<tr>
 					<td>Interviews</td>
@@ -124,8 +130,9 @@
   	</div>
 	<div id="mapid"></div>
 	<div id='test'></div>	
-	<script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
 	<script>
+	
+		L.MakiMarkers.accessToken = "pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpandmbXliNDBjZWd2M2x6bDk3c2ZtOTkifQ._QA7i5Mpkd_m30IGElHziw";
 
 		var mymap = L.map('mapid').setView([41.83683, -97.25098], 5);
 
@@ -136,8 +143,8 @@
 				'Imagery © <a href="http://mapbox.com">Mapbox</a>',
 			id: 'mapbox.streets'
 		}).addTo(mymap);
-
-		L.marker([42.653632, -73.776789]).addTo(mymap).bindPopup('Albany Medical Center');
+		
+		L.marker([42.653632, -73.776789]).addTo(mymap).bindPopup('Albany Medical Center \n test');
 		L.marker([40.45701, -80.003724]).addTo(mymap).bindPopup('Allegheny Health Network Medical Education Consortium (AGH)');
 		L.marker([32.788064, -96.778705]).addTo(mymap).bindPopup('Baylor College of Medicine');
 		L.marker([42.339715, -71.105016]).addTo(mymap).bindPopup('Beth Israel Deaconess Medical Center');
@@ -180,7 +187,10 @@
 		L.marker([40.264038, -76.676678]).addTo(mymap).bindPopup('Penn State Milton S Hershey Medical Center');
 		L.marker([41.874328, -87.670592]).addTo(mymap).bindPopup('Rush University Medical Center');
 		L.marker([40.495082, -74.449385]).addTo(mymap).bindPopup('Rutgers Robert Wood Johnson Medical School');
-		L.marker([42.348958, -71.147681]).addTo(mymap).bindPopup("St Elizabeths Medical Center");
+		
+		var iconStEs = L.MakiMarkers.icon({icon: "roadblock", color: "#bd0026", size: "m"});
+		L.marker([42.348958, -71.147681], {icon: iconStEs}).addTo(mymap).bindPopup("St Elizabeths Medical Center <br><br>Program dropped out from Match on 10/6/16");
+
 		L.marker([38.622926, -90.238766]).addTo(mymap).bindPopup('St Louis University School of Medicine');
 		L.marker([37.433119, -122.175379]).addTo(mymap).bindPopup('Stanford University');
 		L.marker([40.90422, -73.116515]).addTo(mymap).bindPopup('Stony Brook Medicine/University Hospital');
@@ -191,7 +201,11 @@
 		L.marker([42.349832, -71.063271]).addTo(mymap).bindPopup('Tufts Medical Center');
 		L.marker([29.95504, -90.076877]).addTo(mymap).bindPopup('Tulane University');
 		L.marker([34.065894, -118.443361]).addTo(mymap).bindPopup('UCLA Medical Center');
-		L.marker([42.900651, -78.865656]).addTo(mymap).bindPopup('University at Buffalo');
+		
+		var iconBuffalo = L.MakiMarkers.icon({icon: "hospital", color: "#b0b", size: "m"});
+		L.marker([42.900651, -78.865656], {icon: iconBuffalo}).addTo(mymap).bindPopup('University at Buffalo <br><br>Interview: 12/15/2016');
+		
+		
 		L.marker([37.763047, -122.458465]).addTo(mymap).bindPopup('University of California (San Francisco)');
 		L.marker([41.788313, -87.604566]).addTo(mymap).bindPopup('University of Chicago');
 		L.marker([39.139062, -84.503742]).addTo(mymap).bindPopup('University of Cincinnati Medical Center/College of Medicine');
