@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	
+
     <title>BQ Residency Application Dashboard</title>
 
     <!-- Bootstrap -->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-	
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -17,32 +17,32 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-		
+
 	<!-- Leaflet Files -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
 	<script src="Leaflet.MakiMarkers.js"></script>
-	
-	<!-- Other style sheets -->	
+
+	<!-- Other style sheets -->
 	<link href="shame.css" rel="stylesheet" media="all">
 	<script src="https://use.fontawesome.com/8c370e17bd.js"></script>
-   	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700,400' rel='stylesheet' type='text/css'> 
+   	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700,400' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script>
-	
+
 	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css">
-	
+
 	<link rel="stylesheet" href="css/leaflet-vector-markers.css">
 	<script src="js/leaflet-vector-markers.js"></script>
-	
+
   </head>
-  <body>	
+  <body>
   	<div id="info">
   		<h4><i class="fa fa-map-o fa-lg"></i> &nbsp;<a href="../residency-dashboard">BQ Residency Application Dashboard</a></h4>
-		
+
 
 <!-- DISPLAY CURRENT DATE / TIME -->
 <br><i class="fa fa-clock-o fa-lg"></i> &nbsp;
-<span id="clock" data-date="Sat Mar 24 2012 08:42:14 GMT-0400 (EDT)"></span></h1>    
+<span id="clock" data-date="Sat Mar 24 2012 08:42:14 GMT-0400 (EDT)"></span></h1>
     <script>
       $(document).ready(function(){
         var clock = $('#clock'),
@@ -57,7 +57,7 @@
 
 <!-- DISPLAY TIME SINCE SUBMISSION -->
 <br>Since ERAS:
-<span id="eras" data-date="Tue Sep 20 2016 01:39:14 GMT-0400 (EDT)"></span></h1>    
+<span id="eras" data-date="Tue Sep 20 2016 01:39:14 GMT-0400 (EDT)"></span></h1>
     <script>
       $(document).ready(function(){
         var eras = $('#eras'),
@@ -69,11 +69,11 @@
         setInterval(update, 60000);
       });
 </script>
-	  
+
 
 <!-- DISPLAY TIME UNTIL ROL Opens -->
 <br>NRMP ROL due:
-<span id="nrmp" data-date="Feb 22 2017 21:00:00 GMT-0400 (EDT)"></span></h1>    
+<span id="nrmp" data-date="Feb 22 2017 21:00:00 GMT-0400 (EDT)"></span></h1>
     <script>
       $(document).ready(function(){
         var nrmp = $('#nrmp'),
@@ -85,11 +85,11 @@
         setInterval(update, 60000);
       });
 </script>
-	  
+
 
 <!-- DISPLAY TIME TIL MATCH DAY -->
 <br>Match Day:
-<span id="match" data-date="Mar 17 2017 12:00:00 GMT-0400 (EDT)"></span></h1>    
+<span id="match" data-date="Mar 17 2017 12:00:00 GMT-0400 (EDT)"></span></h1>
     <script>
       $(document).ready(function(){
         var match = $('#match'),
@@ -97,10 +97,10 @@
             update = function(){
                        match.html(date.fromNow());
                      };
-        
+
         update();
         setInterval(update, 60000);
-      });	
+      });
 </script>
 <br>Data: <a href="https://docs.google.com/spreadsheets/d/1DD-emLef0Hu-2eRQbzBys5OzLYbszro7WnDc5m21VzY/edit?usp=sharing">[link]</a></strong>
 			<br>
@@ -129,9 +129,9 @@
 			</table>
   	</div>
 	<div id="mapid"></div>
-	<div id='test'></div>	
+	<div id='test'></div>
 	<script>
-	
+
 		L.MakiMarkers.accessToken = "pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpandmbXliNDBjZWd2M2x6bDk3c2ZtOTkifQ._QA7i5Mpkd_m30IGElHziw";
 
 		var mymap = L.map('mapid').setView([41.83683, -97.25098], 5);
@@ -143,7 +143,7 @@
 				'Imagery © <a href="http://mapbox.com">Mapbox</a>',
 			id: 'mapbox.streets'
 		}).addTo(mymap);
-		
+
 		L.marker([42.653632, -73.776789]).addTo(mymap).bindPopup('Albany Medical Center \n test');
 		L.marker([40.45701, -80.003724]).addTo(mymap).bindPopup('Allegheny Health Network Medical Education Consortium (AGH)');
 		L.marker([32.788064, -96.778705]).addTo(mymap).bindPopup('Baylor College of Medicine');
@@ -176,7 +176,10 @@
 		L.marker([42.363154, -71.068833]).addTo(mymap).bindPopup('Massachusetts General Hospital');
 		L.marker([30.262791, -81.441349]).addTo(mymap).bindPopup('Mayo Clinic College of Medicine (Jacksonville)');
 		L.marker([44.022548, -92.46666]).addTo(mymap).bindPopup('Mayo Clinic College of Medicine (Rochester)');
-		L.marker([41.894583, -87.623171]).addTo(mymap).bindPopup('McGaw Medical Center of Northwestern University');
+
+    var iconStEs = L.MakiMarkers.icon({icon: "roadblock", color: "#bd0026", size: "m"});
+    L.marker([41.894583, -87.623171], {icon: iconStEs}).addTo(mymap).bindPopup("McGaw Medical Center of Northwestern University <br><br>Rejected 10/20/16");
+
 		L.marker([32.78437, -79.94715]).addTo(mymap).bindPopup('Medical University of South Carolina');
 		L.marker([42.733196, -84.534333]).addTo(mymap).bindPopup('Michigan State University');
 		L.marker([40.880093, -73.87982]).addTo(mymap).bindPopup('Montefiore Medical Center/Albert Einstein College of Medicine');
@@ -187,9 +190,9 @@
 		L.marker([40.264038, -76.676678]).addTo(mymap).bindPopup('Penn State Milton S Hershey Medical Center');
 		L.marker([41.874328, -87.670592]).addTo(mymap).bindPopup('Rush University Medical Center');
 		L.marker([40.495082, -74.449385]).addTo(mymap).bindPopup('Rutgers Robert Wood Johnson Medical School');
-		
+
 		var iconStEs = L.MakiMarkers.icon({icon: "roadblock", color: "#bd0026", size: "m"});
-		L.marker([42.348958, -71.147681], {icon: iconStEs}).addTo(mymap).bindPopup("St Elizabeths Medical Center <br><br>Program dropped out from Match on 10/6/16");
+		L.marker([42.348958, -71.147681], {icon: iconStEs}).addTo(mymap).bindPopup("St Elizabeths Medical Center <br><br>Program dropped out from Match on 10/6/16	");
 
 		L.marker([38.622926, -90.238766]).addTo(mymap).bindPopup('St Louis University School of Medicine');
 		L.marker([37.433119, -122.175379]).addTo(mymap).bindPopup('Stanford University');
@@ -201,11 +204,11 @@
 		L.marker([42.349832, -71.063271]).addTo(mymap).bindPopup('Tufts Medical Center');
 		L.marker([29.95504, -90.076877]).addTo(mymap).bindPopup('Tulane University');
 		L.marker([34.065894, -118.443361]).addTo(mymap).bindPopup('UCLA Medical Center');
-		
+
 		var iconBuffalo = L.MakiMarkers.icon({icon: "hospital", color: "#b0b", size: "m"});
 		L.marker([42.900651, -78.865656], {icon: iconBuffalo}).addTo(mymap).bindPopup('University at Buffalo <br><br>Interview: 12/15/2016');
-		
-		
+
+
 		L.marker([37.763047, -122.458465]).addTo(mymap).bindPopup('University of California (San Francisco)');
 		L.marker([41.788313, -87.604566]).addTo(mymap).bindPopup('University of Chicago');
 		L.marker([39.139062, -84.503742]).addTo(mymap).bindPopup('University of Cincinnati Medical Center/College of Medicine');
