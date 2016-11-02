@@ -13,7 +13,7 @@
 
     <script src="https://use.fontawesome.com/8c370e17bd.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700,400' rel='stylesheet' type='text/css'>
-
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 
     <title>Brian R. Quaranto / Projects</title>
   </head>
@@ -40,27 +40,37 @@
           <div class="inner cover">
 
             <!-- TODO: Fix underline onmouseover -->
-            <h1 class="cover-heading"><a href="../">Brian R. Quaranto</a></h1>
+            <a href="/"><h1 class="cover-heading">Brian R. Quaranto</h1></a>
 
             <br>
             <p><i class="fa fa-map-marker fa-lg"></i> &nbsp; Buffalo, NY </p>
             <p><i class="fa fa-envelope fa-lg"></i> &nbsp; brian@quaran.to </p>
 
+            <!-- TODO: fix to padding of cover-heading div -->
             <br><br><br>
 
             <a href="../projects" class="btn btn-lg btn-default"><i class="fa fa-rocket fa-lg"></i> &nbsp; Projects</a>
 
-            <center>
-            <table class="table-hover table-condensed">
-      				<tr>
-      						<td><i class="fa fa-globe fa-lg"></i></td>
-      						<td>&nbsp;<a href="http://hribuffalo.org" style="text-align: center;">Human Rights Initiative at UB</a></td>
-      				</tr>
-      				<tr>
-      					<td><i class="fa fa-map-o fa-lg"></i></td>
-      					<td>&nbsp;<a href="/residency-dashboard" style="text-align: center;">Residency Dashboard</a></td>
-      				</tr>
-            </center>
+            <!-- TODO: fix to padding of project-features div -->
+            <br><br><br>
+
+            <div class="project-features">
+              <table class="table table-borderless">
+        				<tr>
+        						<td><a href="http://hribuffalo.org"><img src="../assets/img/hri-buffalo-thumb.png" height=250 width=250 alt"..." class="img-responsive img-circle"></a></td>
+        						<td valign="middle">&nbsp;<a href="http://hribuffalo.org" style="text-align: left;"><h3>Human Rights Initiative at UB</h3></a>
+                      <br><p class="project-feature" style="text-align:left;">Dedicated to providing medical and psychological forensic examinations for asylum seekers in WNY</p>
+                    </td>
+                    <br><br>
+        				</tr>
+        				<tr>
+                  <td><a href="/projects/residency-dashboard"><img src="../assets/img/residency-dashboard-thumb.png" height=250 width=250 alt"..." class="img-responsive img-circle"></a></td>
+        					<td valign="middle">&nbsp;<a href="/projects/residency-dashboard" style="text-align: left;"><h3>Residency Application Dashboard</h3></a>
+                    <br><p class="project-feature" style="text-align:left;">Aggregating and visualizing the 2016 Match</p>
+                  </td>
+                </tr>
+            </div>
+
           </div>
 
           <!--
@@ -76,9 +86,7 @@
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <script type="text/javascript">
       var _gauges = _gauges || [];
