@@ -1,0 +1,412 @@
+ROL, Name,City,State,Website,FREIDA,Address,Lat,Long,leaflet-marker-code,ACGME Number,PD,Email,Phone,Date Applied to,Specific Features,Letter of Interest Sent,Interview Invite,Interview Invite Date Decision,Travel?,Interview Date,Thank You Note Follow up,Thank you sent?,Email Follow up - Interest,Email Sent?,Location,Distance,Reputation,Research,Lifestyle,Teaching Emphasis,Gut Feel,ROL Score,Notes
+1,University at Buffalo ,Buffalo,NY,[link],[link],"Univ at Buffalo Sch of Med
+ Dept of Surgery Rm C-378
+ 100 High St
+ Buffalo, NY 14203",42.90065,-78.865656,"L.marker([42.900651, -78.865656]).addTo(mymap).bindPopup('University at Buffalo Program').openPopup();",3099440C0,Dr. James Lukan MD,Jlukan@ecmc.edu,7168597756,09/20/2016,,,,10/4/2016,-,12/15/2016,,,,,10,0,6,6,8,5,8,43,10/4 - First Interview Invite!
+0,Albany Medical Center ,Albany,NY,[link],[link],"Dept of Surgery MC 61
+ 47 New Scotland Ave
+ Albany, NY 12208",42.65363,-73.776789,"L.marker([42.653632, -73.776789]).addTo(mymap).bindPopup('Albany Medical Center Program ').openPopup();",1414440C0,Todd Beyer MD,ganam@mail.amc.edu,5182625374,09/20/2016,,,,,,,,,,,7,0,0,0,0,0,0,7,
+0,Allegheny Health Network Medical Education Consortium (AGH) ,Pittsburgh,PA,[link],[link],"Allegheny General Hosp
+ General Surgery Pgm
+ 320 E North Ave
+ Pittsburgh, PA 15212",40.45701,-80.003724,"L.marker([40.45701, -80.003724]).addTo(mymap).bindPopup('Allegheny Health Network Medical Education Consortium (AGH) Program ').openPopup();",1648440C0,James T. McCormick D.O.,michele.murphy@ahn.org,4123596907,09/20/2016,,,,,,,,,,,7,0,0,0,0,0,0,7,
+0,Baylor College of Medicine ,Houston,TX,[link],[link],"Baylor Univ Med Ctr
+ Ste 950
+ 3410 Worth St
+ Dallas, TX 75246",32.78806,-96.778705,"L.marker([32.788064, -96.778705]).addTo(mymap).bindPopup('Baylor College of Medicine Program ').openPopup();",1716440C0,Dr. Bradford G. Scott MD,gsprograms@bcm.edu,7137986078,09/20/2016,,,,,,,,,,,7,0,0,0,0,0,0,7,
+0,Beth Israel Deaconess Medical Center ,Boston,MA,[link],[link],"Beth Israel Deaconess Med Ctr
+ LMOB 9B
+ 330 Brookline Ave
+ Boston, MA 02215",42.33972,-71.105016,"L.marker([42.339715, -71.105016]).addTo(mymap).bindPopup('Beth Israel Deaconess Medical Center Program ').openPopup();",1256440C0,Tara S. Kent MD,rsampson@bidmc.harvard.edu,6176329236,09/20/2016,,,,,,,,,,,10,1,9,9,5,8,9,49,
+0,Boston University Medical Center ,Boston,MA,[link],[link],"Boston Univ Med Ctr
+ Surgery Pgm Rm C515
+ 88 E Newton St
+ Boston, MA 02118",42.33702,-71.070589,"L.marker([42.337015, -71.070589]).addTo(mymap).bindPopup('Boston University Medical Center Program ').openPopup();",1257440C0,Dr. Donald T. Hess M.D.,lana.ketlere@bmc.org,6176388442,09/20/2016,,,,,,,,,,,9,1,0,0,5,8,0,21,
+-99,Brigham and Women's Hospital ,Boston,MA,[link],[link],"Brigham and Women's Hosp
+ CA-034
+ 75 Francis St
+ Boston, MA 02115",42.33609,-71.106707,"L.marker([42.336089, -71.106707]).addTo(mymap).bindPopup('Brigham and Women's Hospital Program').openPopup();",1265440C0,"Douglas S. Smink MD, MPH",surgeryeducation@partners.org,6177326861,09/20/2016,-,-,No,10/24/2016,-,-,TODO,,,,10,1,9,10,4,9,7,48,"""Dear Applicant,
+
+Thank you for your interest in the Brigham and Women's Hospital General Surgery Residency Program. 
+
+We have reviewed all applicants and unfortunately, we are unable to grant you an interview for this season. 
+
+We wish you the best of luck in the interview process and in your surgical career.
+
+
+Sincerely,
+
+Douglas S. Smink, MD, MPH
+Program Director, BWH General Surgery Residency Program"""
+0,Brooklyn Hospital Center ,Brooklyn,NY,[link],[link],"Brooklyn Hosp Ctr
+ Dept of Surgery
+ 121 DeKalb Ave
+ Brooklyn, NY 11201",40.69078,-73.977964,"L.marker([40.690775, -73.977964]).addTo(mymap).bindPopup('Brooklyn Hospital Center Program').openPopup();",1420440C0,Dr. Armand P. Asarian M.D.,blingley@tbh.org,7182506923,09/20/2016,,,,,,,,,,,8,1,0,0,0,0,0,7,
+0,Brown University ,Providence,RI,[link],[link],"Rhode Island Hosp
+ APC 4
+ 593 Eddy St
+ Providence, RI 02903",41.81133,-71.411123,"L.marker([41.811328, -71.411123]).addTo(mymap).bindPopup('Brown University Program').openPopup();",1677440C0,David T. Harrington MD,PRichardson@lifespan.org,4014445180,09/20/2016,,,,,,,,,,,6,0,0,0,0,0,0,6,
+0,Case Western Reserve University,Cleveland,OH,[link],[link],"Univ Hosps Case Med Ctr
+ Dept of Surgery
+ 11100 Euclid Ave
+ Cleveland, OH 44106",41.50618,-81.605017,"L.marker([41.506175, -81.605017]).addTo(mymap).bindPopup('Case Western Reserve University').openPopup();",1552440C0,Dr. Jeffrey Marks MD,charles.sullivan@UHhospitals.org,2168443027,09/20/2016,,,,,,,,,,,8,0,0,0,0,0,0,8,
+0,Cedars-Sinai Medical Center ,Los Angeles,CA,[link],[link],"Cedars-Sinai Med Ctr
+ #8215 NT
+ 8700 Beverly Blvd
+ Los Angeles, CA 90048",34.07515,-118.380277,"L.marker([34.075153, -118.380277]).addTo(mymap).bindPopup('Cedars-Sinai Medical Center Program').openPopup();",1030440C0,Dr. Donald Dafoe MD,van.chau@cshs.org,3104236637,09/20/2016,,,,,,,,,,,5,0,0,0,0,0,0,5,
+0,Cleveland Clinic Foundation ,Cleveland,OH,[link],[link],"Cleveland Clinic
+ Dept of General Surgery A100
+ 9500 Euclid Ave
+ Cleveland, OH 44195",41.50152,-81.620804,"L.marker([41.50152, -81.620804]).addTo(mymap).bindPopup('Cleveland Clinic Foundation Program').openPopup();",1968440C0,Jeffrey Ponsky MD,surged@ccf.org,2164441754,09/20/2016,,,,,,,,,,,9,1,10,9,5,7,8,47,
+0,Dartmouth-Hitchcock Medical Center ,Lebanon,NH,[link],[link],"Dartmouth-Hitchcock Med Ctr
+ Dept of Surgery
+ One Medical Center Dr
+ Lebanon, NH 03756",43.68089,-72.273081,"L.marker([43.680893, -72.273081]).addTo(mymap).bindPopup('Dartmouth-Hitchcock Medical Center Program').openPopup();",1377440C0,Paul H. Kispert MD,karen.g.lee@hitchcock.org,6036507692,09/20/2016,,,,,,,,,,,5,3,0,0,0,0,0,2,
+-99,Detroit Medical Center/Wayne State University ,Detroit,MI,[link],[link],"Detroit Med Ctr/Wayne State Univ
+ Dept of Surgery 6-C UHC
+ 4201 St Antoine Blvd
+ Detroit, MI 48201",42.35341,-83.054817,"L.marker([42.353405, -83.054817]).addTo(mymap).bindPopup('Detroit Medical Center/Wayne State University Program').openPopup();",1295440C0,James G Tyburski MD,dcoole@med.wayne.edu,3135775009,09/20/2016,-,-,No,10/25/2016,-,-,TODO,,,,6,3,0,0,0,0,0,3,"""Thank you for applying to the Department of Surgery at Wayne State University/Detroit Medical Center.  We receive a high number of applications and are limited with the number of interview slots available.  We regret to inform you that we are unable to invite you for an interview at this time."""
+0,Drexel University College of Medicine/Hahnemann University Hospital ,Philadelphia,PA,[link],[link],"Hahnemann Univ Hosp
+ Dept of Surgery Mail Stop 413
+ 245 N 15th St
+ Philadelphia, PA 19102",39.95756,-75.163744,"L.marker([39.957556, -75.163744]).addTo(mymap).bindPopup('Drexel University College of Medicine/Hahnemann University Hospital Program').openPopup();",1849440C0,Andres Castellanos MD,astein@drexelmed.edu,2157623585,09/20/2016,,,,,,,,,,,6,0,0,0,0,0,0,6,
+0,Duke University Hospital ,Durham,NC,[link],[link],"Duke Univ Med Ctr
+ Dept of Surgery
+ Box 3443
+ Durham, NC 27710",36.00381,-78.938724,"L.marker([36.003813, -78.938724]).addTo(mymap).bindPopup('Duke University Hospital Program').openPopup();",1529440C0,John Migaly MD,tammy.watson@duke.edu,9196813816,09/20/2016,,,,,,,,,,,5,3,8,8,0,0,0,18,
+0,Emory University ,Atlanta,GA,[link],[link],"Emory Univ Hosp
+ H100 Office of Surgical Education
+ 1364 Clifton Rd NE
+ Atlanta, GA 30322",33.79211,-84.32216,"L.marker([33.792111, -84.32216]).addTo(mymap).bindPopup('Emory University Program').openPopup();",1113440C0,Keith A. Delman MD,emorygeneralsurgery@emory.edu,4047270093,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,George Washington University ,Washington,DC,[link],[link],"George Washington Univ Med Ctr
+ Dept of Surgery Ste 6B
+ 2150 Pennsylvania Ave NW
+ Washington, DC 20037",38.90119,-77.048511,"L.marker([38.901192, -77.048511]).addTo(mymap).bindPopup('George Washington University Program').openPopup();",1802440C0,Paul P Lin MD,rpakan@mfa.gwu.edu,2027413157,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,Georgetown University Hospital ,Washington,DC,[link],[link],"Georgetown Univ Hosp
+ Office of Surgical Educ 2 Gorman Bldg
+ 3800 Reservoir Rd NW
+ Washington, DC 20007",38.91145,-77.075275,"L.marker([38.911453, -77.075275]).addTo(mymap).bindPopup('Georgetown University Hospital Program').openPopup();",1801440C0,Alfred Chahine M.D.,AAC4@gunet.georgetown.edu,2024441233,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,Henry Ford Hospital/Wayne State University ,Detroit,MI,[link],[link],"Henry Ford Hosp
+ General Surgery Pgm
+ 2799 W Grand Blvd
+ Detroit, MI 48202",42.3672,-83.085192,"L.marker([42.367196, -83.085192]).addTo(mymap).bindPopup('Henry Ford Hospital/Wayne State University Program').openPopup();",1300440C0,Ann M. Woodward M.D.,awoodwa1@hfhs.org,3139163056,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,Hofstra Northwell School of Medicine at Lenox Hill Hospital ,New York,NY,[link],[link],"Hofstra Northwell Sch of Med
+ 2nd Fl Dept of Surgery
+ 270-05 76th Ave
+ New Hyde Park, NY 11040",40.75303,-73.707121,"L.marker([40.753029, -73.707121]).addTo(mymap).bindPopup('Hofstra Northwell School of Medicine at Lenox Hill Hospital Program').openPopup();",1700440C1,Dr. Parswa Ansari MD,jvelez2@northwell.edu,2124342150,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,Icahn School of Medicine at Mount Sinai (Beth Israel) ,New York,NY,[link],[link],"Mount Sinai Beth Israel
+ Dept of Surgery
+ First Ave at 16th St
+ New York, NY 10003",40.73496,-73.987015,"L.marker([40.734957, -73.987015]).addTo(mymap).bindPopup('Icahn School of Medicine at Mount Sinai (Beth Israel) Program').openPopup();",1470440C0,Burton G Surick MD,bsurick@chpnet.org,2124204340,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,Icahn School of Medicine at Mount Sinai ,New York,NY,[link],[link],"Icahn Sch of Med at Mount Sinai
+ Dept of Surgery Box 1259
+ 5 E 98th St
+ New York, NY 10029",40.78906,-73.953856,"L.marker([40.789064, -73.953856]).addTo(mymap).bindPopup('Icahn School of Medicine at Mount Sinai Program').openPopup();",1490440C0,"Dr. Celia M. Divino MD, FACS",andre.henry@mountsinai.org,2122415871,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+-99,Icahn School of Medicine at Mount Sinai/St Luke’s-Roosevelt Hospital Center ,New York,NY,[link],[link],"Mount Sinai West
+ Ste 2B
+ 1000 Tenth Ave
+ New York, NY 10019",40.76972,-73.98688,"L.marker([40.769717, -73.98688]).addTo(mymap).bindPopup('Icahn School of Medicine at Mount Sinai/St Luke’s-Roosevelt Hospital Center Program').openPopup();",2070440C0,Grace J. Kim MD,Jgalvis@chpnet.org,2125236970,09/20/2016,-,-,No,10/24/2016,-,-,TODO,,,,0,0,0,0,0,0,0,0,"Dear Candidate:
+
+Thank you for applying to the General Surgery Residency at Mount Sinai St. Luke’s Roosevelt. We have reviewed your application and congratulate you on all your achievements. We sincerely regret that we will be unable to offer you an interview for this recruitment year.
+
+We thank you for your interest in our program and wish you continued success as you continue your training.
+
+
+
+
+Sincerely,
+
+
+Grace Kim, MD, FACS; Program Director
+
+
+Jessica Galvis, MPA; Program Manager"
+0,Jackson Memorial Hospital/Jackson Health System ,Miami,FL,[link],[link],"Jackson Memorial Hosp
+ Dept of Surgery R310
+ PO Box 016310
+ Miami, FL 33101",25.77833,-80.199014,"L.marker([25.778325, -80.199014]).addTo(mymap).bindPopup('Jackson Memorial Hospital/Jackson Health System Program').openPopup();",1104440C0,Danny Sleeman MD,gsprogrm@med.miami.edu,3055851280,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,Johns Hopkins University ,Baltimore,MD,[link],[link],"Johns Hopkins Univ Sch of Med
+ Dept of Surgery Osler 603
+ 600 N Wolfe St
+ Baltimore, MD 21287",39.29725,-76.592212,"L.marker([39.297245, -76.592212]).addTo(mymap).bindPopup('Johns Hopkins University Program').openPopup();",1242440C0,Dr. Pamela A. Lipsett,plipsett@jhmi.edu,4109556796,09/20/2016,,,,,,,,,,,6,2,10,10,5,10,8,47,
+0,Lincoln Medical and Mental Health Center ,Bronx,NY,[ ],[link],"Lincoln Med Ctr
+ Ste 620
+ 234 E 149th St
+ Bronx, NY 10451",40.81689,-73.924441,"L.marker([40.81689, -73.924441]).addTo(mymap).bindPopup('Lincoln Medical and Mental Health Center Program').openPopup();",1484440C0,Dr. Valerie L. Katz MD,roxanne.gonzalez@nychhc.org,7185795900,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+-99,Los Angeles County-Harbor-UCLA Medical Center ,Torrance,CA,[link],[link],"Los Angeles County-Harbor-UCLA Med Ctr
+ Dept of Surgery Box 461
+ 1000 W Carson St
+ Torrance, CA 90509",33.83073,-118.291845,"L.marker([33.830725, -118.291845]).addTo(mymap).bindPopup('Los Angeles County-Harbor-UCLA Medical Center Program').openPopup();",1067440C0,Angela L. Neville MD,rmmorison@labiomed.org,3102222700,09/20/2016,,,No,11/2/2016,,,TODO,,,,7,6,0,0,0,0,0,1,"""Dear General Surgery Applicant,
+
+We wish to inform you that we have concluded our review of applications this for this Match season and extend our sincere regrets that you were not selected to interview for a General Surgery Residency position at Harbor-UCLA Medical Center.  
+We extend our best wishes for your success in this Match season and in your future career.
+Sincerely,
+----
+Roxanne Morrison and Yazmin Lona
+Surgery Residency Coordinators
+Harbor-UCLA Medical Center
+Torrance, California 90509"""
+0,Loyola University ,Maywood,IL,[link],[link],"Loyola Univ Med Ctr
+ Dept of Surgery
+ 2160 S First Ave
+ Maywood, IL 60153",41.86051,-87.835113,"L.marker([41.860507, -87.835113]).addTo(mymap).bindPopup('Loyola University Program').openPopup();",1170440C0,Constantine Godellas MD,ADRIANA.OHL@LUHS.ORG,7083273436,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,Maimonides Medical Center ,Brooklyn,NY,[link],[link],"Maimonides Med Ctr
+ Dept of Surgery
+ 4802 Tenth Ave
+ Brooklyn, NY 11219",40.63943,-73.998372,"L.marker([40.639431, -73.998372]).addTo(mymap).bindPopup('Maimonides Medical Center Program').openPopup();",1428440C0,Dr. Loren J. Harris MD,schauhan@maimonidesmed.org,7182837683,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+-99,Massachusetts General Hospital ,Boston,MA,[link],[link],"Massachusetts General Hosp
+ Surgical Pgm GRB 425
+ 55 Fruit St
+ Boston, MA 02114",42.36315,-71.068833,"L.marker([42.363154, -71.068833]).addTo(mymap).bindPopup('Massachusetts General Hospital Program').openPopup();",1261440C0,John T. Mullen M.D.,lparker2@partners.org,6177262800,09/20/2016,-,-,No,10/25/2016,-,-,TODO,,,,9,1,10,10,0,0,0,28,"""Dear Applicant:
+
+We have reviewed your application for a categorical position in our General Surgery Residency Program at the Massachusetts General Hospital.  I regret to inform you that we will be unable to offer you an interview.
+
+We thank you for your interest in our program and wish you every success in your future career in surgery.
+
+Sincerely,
+
+John Mullen, M.D.
+Program Director, General Surgery Residency
+Massachusetts General Hospital"""
+0,Mayo Clinic College of Medicine (Jacksonville) ,Jackonville,FL,[link],[link],"Mayo Clinic Jacksonville
+ Surgery Pgm
+ 4500 San Pablo Rd
+ Jacksonville, FL 32224",30.26279,-81.441349,"L.marker([30.262791, -81.441349]).addTo(mymap).bindPopup('Mayo Clinic College of Medicine (Jacksonville) Program').openPopup();",1032440C0,Sarah McLaughlin M.D.,mclaughlin.sarah@mayo.edu,9049530424,09/20/2016,,,,,,,,,,,0,4,0,0,0,0,0,-4,
+-99,Mayo Clinic College of Medicine (Rochester) ,Rochester,MN,[link],[link],"Mayo Clinic
+ Surgery Pgm West 12
+ 200 First St SW
+ Rochester, MN 55905",44.02255,-92.46666,"L.marker([44.022548, -92.46666]).addTo(mymap).bindPopup('Mayo Clinic College of Medicine (Rochester) Program').openPopup();",1328440C0,Stephanie F. Heller M.D.,heller.stephanie@mayo.edu,5072848240,09/20/2016,,,No,10/31/2016,,,TODO,,,,0,0,0,0,0,0,0,0,"""Thank you for your interest in the general surgery residency training programs at the Mayo Clinic in Rochester, Minnesota.  We have received a large number of applicants and are unable to grant interviews to all applicants.  I regret to inform you that we are unable to offer you an interview for the program(s) you applied to:
+ 
+General Surgery (Categorical)
+Joint Gen & Thoracic Surg (Categorical)
+Gen Surg/Integrated Comm & Rural (Categorical)
+Surgery-Preliminary (Preliminary)
+
+Interviews for all of these programs have been filled. 
+
+Thank you again for your interest in our training programs.  I wish you success in your pursuit of further surgical education.
+ 
+Sincerely,
+ 
+Stephanie F. Heller, M.D.
+Program Director, General Surgery
+Residency Training Program"""
+-99,McGaw Medical Center of Northwestern University ,Chicago,IL,[link],[link],"McGaw Med Ctr Northwestern Univ
+ Ste 650
+ 676 N St Clair St
+ Chicago, IL 60611",41.89458,-87.623171,"L.marker([41.894583, -87.623171]).addTo(mymap).bindPopup('McGaw Medical Center of Northwestern University Program').openPopup();",2247440C0,Shari L Meyerson MD,surged@nmh.org,3129269404,09/20/2016,,,No,10/20/2016,,,TODO,,,,0,0,0,0,0,0,0,0,
+0,Medical University of South Carolina ,Charleston,SC,[link],[link],"Med Univ of South Carolina
+ Rm 417-D CSB MSC 613
+ 96 Jonathan Lucas St
+ Charleston, SC 29425",32.78437,-79.94715,"L.marker([32.78437, -79.94715]).addTo(mymap).bindPopup('Medical University of South Carolina Program').openPopup();",1680440C0,Christian J Streck MD,wethersf@musc.edu,8437923072,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,Michigan State University ,Lansing,MI,[link],[link],"Sparrow Hosp
+ Dept of Surgery Ste 655
+ 1200 E Michigan Ave
+ Lansing, MI 48912",42.7332,-84.534333,"L.marker([42.733196, -84.534333]).addTo(mymap).bindPopup('Michigan State University Program').openPopup();",2436440C0,Robert L. Osmer M.D.,robert.osmer@hc.msu.edu,5172672047,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,Montefiore Medical Center/Albert Einstein College of Medicine ,Bronx,NY,,[link],"Montefiore Med Ctr
+ Dept of Pediatric Surgery
+ 111 E 210th St
+ Bronx, NY 10467",40.88009,-73.87982,"L.marker([40.880093, -73.87982]).addTo(mymap).bindPopup('Montefiore Medical Center/Albert Einstein College of Medicine Program').openPopup();",3153440C0,Mindy B Statter M.D.,mstatter@montefiore.org,7189207288,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,New York Presbyterian Hospital (Columbia Campus) ,New York,NY,[link],[link],"NewYork-Presbyterian/Columbia Univ Med Ctr
+ Milstein Hosp 7GS-313
+ 177 Fort Washington Ave
+ New York, NY 10032",40.84152,-73.942993,"L.marker([40.841516, -73.942993]).addTo(mymap).bindPopup('New York Presbyterian Hospital (Columbia Campus) Program').openPopup();",1495440C0,Tracey D. Arnell M.D.,mh487@cumc.columbia.edu,2123053038,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,New York Presbyterian Hospital (Cornell Campus) ,New York,NY,[link],[link],"NewYork-Presbyterian/Weill Cornell Med Ctr
+ Dept of Surgery Box 207
+ 525 E 68th St
+ New York, NY 10065",40.7644,-73.95393,"L.marker([40.764396, -73.95393]).addTo(mymap).bindPopup('New York Presbyterian Hospital (Cornell Campus) Program').openPopup();",1492440C0,Dr. Anthony C Watkins MD,mab2068@med.cornell.edu,2127465380,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,New York University School of Medicine ,New York,NY,[link],[link],"New York Univ Med Ctr
+ NB 15 N1
+ 550 First Ave
+ New York, NY 10016",40.74207,-73.974335,"L.marker([40.74207, -73.974335]).addTo(mymap).bindPopup('New York University School of Medicine Program').openPopup();",2978440C0,Russell S Berman MD,russell.berman@med.nyu.edu,2122636378,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,Ohio State University Hospital ,Columbus,OH,[link],[link],"Ohio State Univ Wexner Med Ctr
+ Dept of Surgery Rm 680
+ 395 W 12th Ave
+ Columbus, OH 43210",39.99562,-83.017674,"L.marker([39.995618, -83.017674]).addTo(mymap).bindPopup('Ohio State University Hospital Program').openPopup();",1566440C0,Dr. Alan E. Harzman MD,beth.hanson@osumc.edu,6142938704,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,Penn State Milton S Hershey Medical Center ,Hershey,PA,[link],[link],"Penn State Hershey Med Ctr
+ PO Box 850 H159
+ 500 University Dr
+ Hershey, PA 17033",40.26404,-76.676678,"L.marker([40.264038, -76.676678]).addTo(mymap).bindPopup('Penn State Milton S Hershey Medical Center Program').openPopup();",1617440C0,David C. Han M.D.,dhan@hmc.psu.edu,7175318557,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,KL,Chicago,IL,[link],[link],"Rush Univ Med Ctr
+ Ste 785
+ 1750 W Harrison St
+ Chicago, IL 60612",41.87433,-87.670592,"L.marker([41.874328, -87.670592]).addTo(mymap).bindPopup('Rush University Medical Center Program').openPopup();",1147440C0,Edie Y. Chan M.D.,danielle_c_hill@rush.edu,3129426510,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,Rutgers Robert Wood Johnson Medical School ,New Brunswick,NJ,[link],[link],"Rutgers Robert Wood Johnson Med Sch
+ Surgery MEB 448 PO Box 19
+ 51 French St
+ New Brunswick, NJ 08903-0019",40.49508,-74.449385,"L.marker([40.495082, -74.449385]).addTo(mymap).bindPopup('Rutgers Robert Wood Johnson Medical School Program').openPopup();",2918440C0,Dr. Nell Maloney Patel,rwjp-residency-gensurg@rwjms.rutgers.edu,7322357674,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,St Louis University School of Medicine ,St. Louis,MO,[link],[link],"St Louis Univ Sch of Med
+ PO Box 15250
+ 3635 Vista Ave
+ St Louis, MO 63110",38.62293,-90.238766,"L.marker([38.622926, -90.238766]).addTo(mymap).bindPopup('St Louis University School of Medicine Program').openPopup();",1365440C0,Catherine Wittgen MD,fornerkd@slu.edu,3145778317,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+-99,Stanford University ,Stanford,CA,[link],[link],"Stanford Univ Med Ctr
+ Surgery Pgm H3691
+ 300 Pasteur Dr
+ Stanford, CA 94305",37.43312,-122.175379,"L.marker([37.433119, -122.175379]).addTo(mymap).bindPopup('Stanford University Program').openPopup();",1820440C0,Marc Melcher M.D.,anita.hagan@stanford.edu,6507252181,09/20/2016,-,-,No,10/27/2016,-,-,TODO,,,,0,0,0,0,0,0,0,0,"""Dear Applicant,
+ 
+Thank you so much for your strong interest in our General Surgery program.
+ 
+This year's pool of applicants has been super strong and we can only interview a limited number of candidates.
+ 
+At this time all the interview slots are full; we will notify you of any changes in your application status.
+ 
+ 
+Best wishes,"
+-99,Stony Brook Medicine/University Hospital ,Stony Brook,NY,[link],[link],"Stony Brook Medicine
+ Dept of Surgery T-19 090
+ Nicolls Rd
+ Stony Brook, NY 11794",40.90422,-73.116515,"L.marker([40.90422, -73.116515]).addTo(mymap).bindPopup('Stony Brook Medicine/University Hospital Program').openPopup();",2919440C0,"Richard Scriven MD, FACS",Deborah.Thornton@stonybrookmedicine.edu,6314441791,09/20/2016,-,-,No,11/1/2016,-,-,TODO,,,,0,0,0,0,0,0,0,0,"""Dear Doctor,
+              We have reviewed your ERAS application for a residency position with the Department of Surgery in the State University of New York at Stony Brook for July, 2017.
+                Our Residency Review Committee has carefully screened your application.  Although you have a good application, we have reviewed an extraordinarily large volume of well-qualified surgical candidates for the academic year 2016-2017.
+              In view of this, we will not be extending an invitation to you for an interview.  We will keep your ERAS application throughout the recruitment period.  In the event you have a scheduled appointment and believe that you got this in error, please contact me. 
+                Thank you for your interest in our program and we wish you the very best in your pursuit of a career in medicine and surgery. 
+Sincerely,
+Richard Scriven , MD
+Program Director, General Surgery"""
+0,SUNY Health Science Center at Brooklyn ,Brooklyn,NY,[link],[link],"SUNY Downstate Med Ctr
+ Dept of Surgery Box 40
+ 450 Clarkson Ave
+ Brooklyn, NY 11203",40.65525,-73.945734,"L.marker([40.655246, -73.945734]).addTo(mymap).bindPopup('SUNY Health Science Center at Brooklyn Program').openPopup();",1426440C0,"Lisa S. Dresner M.D., FACS",natasha.sagal@downstate.edu,7182703302,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,SUNY Upstate Medical University ,Syracuse,NY,[link],[link],"SUNY Upstate Med Univ
+ Dept of Surgery
+ 750 E Adams St
+ Syracuse, NY 13210",43.04186,-76.139834,"L.marker([43.041864, -76.139834]).addTo(mymap).bindPopup('SUNY Upstate Medical University Program').openPopup();",1516440C0,Andreas H. Meier MD,liberatk@upstate.edu,3154647261,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,Swedish Medical Center/First Hill ,Seattle,WA,[link],[link],"Swedish Med Ctr-First Hill
+ General Surgery Pgm Ste WW 739
+ 747 Broadway
+ Seattle, WA 98122",47.60886,-122.322088,"L.marker([47.608859, -122.322088]).addTo(mymap).bindPopup('Swedish Medical Center/First Hill Program').openPopup();",1755440C0,Marc D. Horton MD,surgeryresidencyap@swedish.org,2062154253,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,Temple University Hospital ,Philadelphia,PA,[link],[link],"Temple Univ Hosp
+ Surgery Pgm
+ 3401 N Broad St
+ Philadelphia, PA 19140",40.00529,-75.150744,"L.marker([40.005294, -75.150744]).addTo(mymap).bindPopup('Temple University Hospital Program').openPopup();",1646440C0,Dr. Howard Ross M.D.,tuhsurg@tuhs.temple.edu,2157073632,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,Tufts Medical Center ,Boston,MA,[link],[link],"Tufts Med Ctr
+ Box 437
+ 800 Washington St
+ Boston, MA 02111",42.34983,-71.063271,"L.marker([42.349832, -71.063271]).addTo(mymap).bindPopup('Tufts Medical Center Program').openPopup();",1263440C0,Jeffrey Cooper M.D.,acerulli@tuftsmedicalcenter.org,6176365891,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,Tulane University ,New Orleans,LA,[link],[link],"Tulane Univ Health Sciences Ctr
+ Dept of Surgery SL22
+ 1430 Tulane Ave
+ New Orleans, LA 70112",29.95504,-90.076877,"L.marker([29.95504, -90.076877]).addTo(mymap).bindPopup('Tulane University Program').openPopup();",3073440C0,James R. Korndorffer I MD,korndorffer@tulane.edu,5049882306,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,UCLA Medical Center ,Los Angeles,CA,[link],[link],"UCLA Med Ctr
+ Dept of Surgery 72-227 CHS
+ 10833 Le Conte Ave
+ Los Angeles, CA 90095",34.06589,-118.443361,"L.marker([34.065894, -118.443361]).addTo(mymap).bindPopup('UCLA Medical Center Program').openPopup();",1956440C0,Timothy Ryan Donahue MD,cquach@mednet.ucla.edu,3102069291,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,University of California (San Francisco) ,San Francisco,CA,[link],[link],"UCSF Med Ctr
+ Dept of Surgery Rm S321
+ 513 Parnassus Ave
+ San Francisco, CA 94143",37.76305,-122.458465,"L.marker([37.763047, -122.458465]).addTo(mymap).bindPopup('University of California (San Francisco) Program').openPopup();",1062440C0,Dr. Linda M. Reilly MD,EducationOffice@ucsfmedctr.org,4154761239,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+-99,University of Chicago ,Chicago,IL,[link],[link],"Univ of Chicago Med Ctr
+ MC-5031
+ 5841 S Maryland Ave
+ Chicago, IL 60637",41.78831,-87.604566,"L.marker([41.788313, -87.604566]).addTo(mymap).bindPopup('University of Chicago Program').openPopup();",1160440C0,Kevin Roggin M.D.,cbarr@surgery.bsd.uchicago.edu,7737026337,09/20/2016,,,No,10/24/2016,-,-,TODO,,,,0,0,0,0,0,0,0,0,"""Dear Applicant,
+
+Thank you for applying to the General Surgery Residency Program at the University of Chicago Medicine. We have received numerous excellent applications, including yours. However, I am sorry to inform you that you have not been chosen for an interview. 
+
+Sincerely,
+Kevin Roggin, M.D.
+Professor of Surgery
+Program Director, General Surgery Training Program"""
+0,University of Cincinnati Medical Center/College of Medicine ,Cincinnati,OH,[link],[link],"Univ of Cincinnati Med Ctr
+ Dept of Surgery ML 0558
+ 231 Albert Sabin Way
+ Cincinnati, OH 45267-0558",39.13906,-84.503742,"L.marker([39.139062, -84.503742]).addTo(mymap).bindPopup('University of Cincinnati Medical Center/College of Medicine Program').openPopup();",1548440C0,Jeffrey J. Sussman M.D.,gilda.young@uc.edu,5135584206,09/20/2016,,,,,,,,,,,0,4,0,0,0,0,0,-4,
+0,University of Colorado ,Aurora,CO,[link],[link],"Univ of Colorado Denver Sch of Med
+ Mail Stop C-302 Rm 5405
+ 12631 E 17th Ave
+ Aurora, CO 80045",39.74405,-104.840709,"L.marker([39.744052, -104.840709]).addTo(mymap).bindPopup('University of Colorado Program').openPopup();",1076440C0,Mark Nehler M.D.,Claire.Travis@UCDenver.edu,3037242680,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,University of Illinois College of Medicine at Chicago (Metropolitan Group) ,Chicago,IL,[link],[link],"Advocate Illinois Masonic Med Ctr
+ Surgery Pgm
+ 836 W Wellington Ave
+ Chicago, IL 60657",41.93678,-87.651343,"L.marker([41.936783, -87.651343]).addTo(mymap).bindPopup('University of Illinois College of Medicine at Chicago (Metropolitan Group) Program').openPopup();",2920440P0,Vijay K. Maker M.D.,julieta.magallon@advocatehealth.com,7732967093,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,University of Illinois College of Medicine at Chicago (Mount Sinai) ,Chicago,IL,[link],[link],"Mount Sinai Hosp Med Ctr
+ Dept of Surgery
+ 1500 S California Ave
+ Chicago, IL 60608",41.86111,-87.694014,"L.marker([41.86111, -87.694014]).addTo(mymap).bindPopup('University of Illinois College of Medicine at Chicago (Mount Sinai) Program').openPopup();",1287440C0,Dr. Stephen R. Wise M.D.,stephen.wise@sinai.org,7732576464,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,University of Illinois College of Medicine at Chicago ,Chicago,IL,[link],[link],"Univ of Illinois Med Ctr
+ Dept of Surgery MC 958 Ste 376-CSN
+ 840 S Wood St
+ Chicago, IL 60612",41.87054,-87.671787,"L.marker([41.870543, -87.671787]).addTo(mymap).bindPopup('University of Illinois College of Medicine at Chicago Program').openPopup();",1150440C0,Dr. Martin Borhani MD,SURG-RESIDENCY@LISTSERV.UIC.EDU,3129966765,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+-99,University of Maryland ,Baltimore,MD,[link],[link],"Univ of Maryland Med System
+ Dept of Surgery Rm 643A
+ 29 S Greene St
+ Baltimore, MD 21201",39.28813,-76.623206,"L.marker([39.288127, -76.623206]).addTo(mymap).bindPopup('University of Maryland Program').openPopup();",1252440C0,Stephen M. Kavic MD,skidd@smail.umaryland.edu,4103285878,09/20/2016,-,-,No,10/25/2016,-,-,TODO,,,,0,0,0,0,0,0,0,0,"""Hello-
+
+Thank you for your interest in the General Surgery Residency Program at the University of Maryland Medical Center. 
+
+Determining a group of candidates was a difficult process. We took care to review your credentials thoroughly and have made the difficult decision that your application is no longer under consideration. 
+
+Again, thank you for your interest in our program and we wish you much success in your residency search!
+
+Thank you, 
+Sarah Kidd-Romero
+General Surgery Residency
+Senior Program Coordinator
+University of Maryland Medical Center
+Department of Surgery
+skidd@smail.umaryland.edu 
+"""
+0,University of Michigan,Ann Arbor,MI,[link],[link],"Univ of Michigan Hosps and Health Ctrs
+ 2110 Taubman Ctr
+ 1500 E Medical Center Dr
+ Ann Arbor, MI 48109",42.28212,-83.727352,"L.marker([42.282121, -83.727352]).addTo(mymap).bindPopup('University of Michigan Program').openPopup();",1293440C0,Paul G. Gauger MD,janiced@med.umich.edu,7349365732,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,University of North Carolina Hospitals,Chapel Hill,NC,[link],[link],"Univ of North Carolina Hosps
+ 4029 Burnett-Womack Bldg CB #7081
+ 101 Manning Dr
+ Chapel Hill, NC 27599",35.9042,-79.052878,"L.marker([35.904202, -79.052878]).addTo(mymap).bindPopup('University of North Carolina Hospitals Program').openPopup();",1900440C0,Michael Meyers MD,michael_meyers@med.unc.edu,9199664653,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,University of Pennsylvania,Philadelphia,PA,[link],[link],"Hosp of the Univ of Pennsylvania
+ 4 Maloney
+ 3400 Spruce St
+ Philadelphia, PA 19104",39.94997,-75.193004,"L.marker([39.949968, -75.193004]).addTo(mymap).bindPopup('University of Pennsylvania Program').openPopup();",1628440C0,Jon B. Morris,malachem@uphs.upenn.edu,2156626156,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,University of Rochester,Rochester,NY,[link],[link],"Univ of Rochester Med Ctr
+ Box SURG
+ 601 Elmwood Ave
+ Rochester, NY 14642",43.12282,-77.625281,"L.marker([43.122824, -77.625281]).addTo(mymap).bindPopup('University of Rochester Program').openPopup();",1511440C0,Rabih Salloum M.D.,amy_mills@urmc.rochester.edu,5852752723,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,University of Southern California/LAC+USC Medical Center,Los Angeles,CA,[link],[link],"LAC+USC Med Ctr
+ HCT-4300
+ 1520 San Pablo St
+ Los Angeles, CA 90033",34.06258,-118.202475,"L.marker([34.062583, -118.202475]).addTo(mymap).bindPopup('University of Southern California/LAC+USC Medical Center Program').openPopup();",1033440C0,Kenji Inaba MD,celestem@med.usc.edu,3234429064,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,"""Thank you for applying to the University of Washington residency program in General Surgery. We recognize all the hard work you have put into your application and regret we will not be able to offer you an interview. We get hundreds of outstanding applications and simply cannot interview with everyone we would like to meet.
+
+We greatly appreciate the interest you have shown in our program and we wish you all the best in your surgical career.
+
+Sincerely,
+
+Karen D. Horvath, MD, FACS
+Professor of Surgery
+Director, Residency Programs in General and Preliminary Surgery
+Associate Chair for Education"""
+-99,University of Washington,Seattle,WA,[link],[link],"Univ of Washington Sch of Med
+ Dept of Surgery Box 356410
+ 1959 NE Pacific St
+ Seattle, WA 98195",47.65069,-122.309134,"L.marker([47.650694, -122.309134]).addTo(mymap).bindPopup('University of Washington Program').openPopup();",1918440C0,Karen D. Horvath MD,coluccio@u.washington.edu,2065433687,09/20/2016,,,No,11/1/2016,,,TODO,,,,0,0,0,0,0,0,0,0,
+0,UPMC Medical Education (Mercy),Pittsburgh,PA,[link],[link],"UPMC Mercy
+ Dept of Surgery
+ 1400 Locust St
+ Pittsburgh, PA 15219",40.43614,-79.985285,"L.marker([40.436137, -79.985285]).addTo(mymap).bindPopup('UPMC Medical Education (Mercy) Program').openPopup();",1649440C0,Dr. Kurt R. Stahlfeld M.D.,upmcmercysurgery@upmc.edu,4122325528,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,UPMC Medical Education,Pittsburgh,PA,[link],[link],"Univ of Pittsburgh Med Ctr
+ Rm F677 PUH
+ 200 Lothrop St
+ Pittsburgh, PA 15213",40.44256,-79.960983,"L.marker([40.442561, -79.960983]).addTo(mymap).bindPopup('UPMC Medical Education Program').openPopup();",1652440C0,Kenneth K. W. Lee MD,SurgeryResidency@upmc.edu,4126473389,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,Vanderbilt University Medical Center ,Nashville,TN,[link],[link],"Vanderbilt Univ Med Ctr
+ Dept of Surgery D-4314 MCN
+ 1161 21st Ave S
+ Nashville, TN 37232-2730",36.1437,-86.801026,"L.marker([36.1437, -86.801026]).addTo(mymap).bindPopup('Vanderbilt University Medical Center Program').openPopup();",1702440C0,Kyla Terhune MD,stephanie.rowe@vanderbilt.edu,6153436642,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,Wake Forest University School of Medicine,Winston-Salem,NC,[link],[link],"Wake Forest Baptist Med Ctr
+ Dept of Surgery
+ Medical Center Blvd
+ Winston-Salem, NC 27157",36.09027,-80.271456,"L.marker([36.09027, -80.271456]).addTo(mymap).bindPopup('Wake Forest University School of Medicine Program').openPopup();",1537440C0,Amy N Hildreth MD,tboyd@wakehealth.edu,3367164396,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,Washington University/B-JH/SLCH Consortium,St Louis,MO,[link],[link],"Washington Univ/B-JH/SLCH Consortium
+ Campus Box 8109
+ 660 S Euclid Ave
+ St Louis, MO 63110",38.63507,-90.262286,"L.marker([38.635073, -90.262286]).addTo(mymap).bindPopup('Washington University/B-JH/SLCH Consortium Program').openPopup();",1353440C0,Paul E Wise MD,asksurgery@wudosis.wudosis.wustl.edu,3143628028,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,0,0,
+0,Yale-New Haven Medical Center,New Haven,CT,[ ],[link],"Yale-New Haven Med Ctr
+ Lauder Hall 118
+ 333 Cedar St
+ New Haven, CT 06520-8062",41.30319,-72.933976,"L.marker([41.303188, -72.933976]).addTo(mymap).bindPopup('Yale-New Haven Medical Center Program').openPopup();",1089440C0,Walter E. Longo M.D.,ania.shea@yale.edu,2037857890,09/20/2016,,,,,,,,,,,0,0,0,0,0,0,,0,
+-99,St. Elizabeth's,Boston,MA,[link],[link],"St Elizabeth's Med Ctr
+ CMP2
+ 736 Cambridge St
+ Brighton, MA 02135",42.34896,-71.147681,"L.marker([42.348958, -71.147681]).addTo(mymap).bindPopup('St Elizabeth's Medical Center Program').openPopup();",1266440C0,Dr. Scott R Johnson,kerrie.devasto@steward.org,6177892990,09/20/2016,,,,No; not participating in Match this year,-,-,TODO,-,-,-,8,1,4,3,6,3,2,25,"We wanted to inform you that our program has made a recent decision not to participate in the match this year. We appreciate all of the interest in our program and we wish you well in the match. We apologize for the late notice of this decision and for any inconvenience this may have caused you.
+
+Kerrie DeVasto
+
+Program Coordinator"
