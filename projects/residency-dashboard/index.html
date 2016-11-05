@@ -43,9 +43,8 @@
 
   </head>
   <body>
-  	<div id="info">
-  		<h4><i class="fa fa-map-o fa-lg"></i> &nbsp;<a href="../residency-dashboard">BQ Residency Application Dashboard <code>beta</code></a></h4>
-
+   <div id="info">
+    <h4><i class="fa fa-map-o fa-lg"></i> &nbsp;<a href="../residency-dashboard">BQ Residency Application Dashboard</a><code>beta</code></h4>
 
 <!-- DISPLAY CURRENT DATE / TIME -->
 <br><i class="fa fa-clock-o fa-lg"></i> &nbsp;
@@ -61,6 +60,8 @@
         setInterval(update, 60000);
       });
 </script>
+
+<br>
 
 <!-- DISPLAY TIME SINCE SUBMISSION -->
 <br>Since ERAS:
@@ -117,7 +118,7 @@
 				</tr>
 				<tr>
 					<td>Rejected</td>
-					<td>13</td>
+					<td>14</td>
 				</tr>
 				<tr>
 					<td>Interview Invites</td>
@@ -156,19 +157,25 @@
     <!-- I N T E R V I E W S-->
     L.marker([42.900651, -78.865656], {icon: L.AwesomeMarkers.icon({icon: 'info', markerColor: 'darkgreen', prefix: 'fa', spin:false}) }).addTo(mymap).bindPopup('University at Buffalo <br><br>Interview: 12/15/2016');
 
-    <!-- (out)Reach / Dream -->
+    <!-- (out)Reach -->
     L.marker([42.339715, -71.105016]).addTo(mymap).bindPopup('Beth Israel Deaconess Medical Center');
+
+    <!-- Proximity Effect? -->
+    L.marker([43.122824, -77.625281]).addTo(mymap).bindPopup('University of Rochester');
+    L.marker([43.041864, -76.139834]).addTo(mymap).bindPopup('SUNY Upstate Medical University');
+		L.marker([41.506175, -81.605017]).addTo(mymap).bindPopup('Case Western Reserve University');
+    L.marker([41.50152, -81.620804]).addTo(mymap).bindPopup('Cleveland Clinic Foundation');
+    L.marker([40.45701, -80.003724]).addTo(mymap).bindPopup('Allegheny Health Network Medical Education Consortium (AGH)');
+    L.marker([40.436137, -79.985285]).addTo(mymap).bindPopup('UPMC Medical Education (Mercy)');
+    L.marker([40.442561, -79.960983]).addTo(mymap).bindPopup('UPMC Medical Education');
 
     <!-- No Response Yet... -->
 		L.marker([42.653632, -73.776789]).addTo(mymap).bindPopup('Albany Medical Center');
-		L.marker([40.45701, -80.003724]).addTo(mymap).bindPopup('Allegheny Health Network Medical Education Consortium (AGH)');
 		L.marker([32.788064, -96.778705]).addTo(mymap).bindPopup('Baylor College of Medicine');
 		L.marker([42.337015, -71.070589]).addTo(mymap).bindPopup('Boston University Medical Center');
 		L.marker([40.690775, -73.977964]).addTo(mymap).bindPopup('Brooklyn Hospital Center');
 		L.marker([41.811328, -71.411123]).addTo(mymap).bindPopup('Brown University');
-		L.marker([41.506175, -81.605017]).addTo(mymap).bindPopup('Case Western Reserve University');
 		L.marker([34.075153, -118.380277]).addTo(mymap).bindPopup('Cedars-Sinai Medical Center');
-		L.marker([41.50152, -81.620804]).addTo(mymap).bindPopup('Cleveland Clinic Foundation');
 		L.marker([43.680893, -72.273081]).addTo(mymap).bindPopup('Dartmouth-Hitchcock Medical Center');
 		L.marker([39.957556, -75.163744]).addTo(mymap).bindPopup('Drexel University College of Medicine/Hahnemann University Hospital');
 		L.marker([36.003813, -78.938724]).addTo(mymap).bindPopup('Duke University Hospital');
@@ -191,13 +198,11 @@
 		L.marker([40.841516, -73.942993]).addTo(mymap).bindPopup('New York Presbyterian Hospital (Columbia Campus)');
 		L.marker([40.764396, -73.95393]).addTo(mymap).bindPopup('New York Presbyterian Hospital (Cornell Campus)');
 		L.marker([40.74207, -73.974335]).addTo(mymap).bindPopup('New York University School of Medicine');
-		L.marker([39.995618, -83.017674]).addTo(mymap).bindPopup('Ohio State University Hospital');
 		L.marker([40.264038, -76.676678]).addTo(mymap).bindPopup('Penn State Milton S Hershey Medical Center');
 		L.marker([41.874328, -87.670592]).addTo(mymap).bindPopup('Rush University Medical Center');
 		L.marker([40.495082, -74.449385]).addTo(mymap).bindPopup('Rutgers Robert Wood Johnson Medical School');
 		L.marker([38.622926, -90.238766]).addTo(mymap).bindPopup('St Louis University School of Medicine');
     L.marker([40.655246, -73.945734]).addTo(mymap).bindPopup('SUNY Health Science Center at Brooklyn');
-		L.marker([43.041864, -76.139834]).addTo(mymap).bindPopup('SUNY Upstate Medical University');
 		L.marker([47.608859, -122.322088]).addTo(mymap).bindPopup('Swedish Medical Center/First Hill');
 		L.marker([40.005294, -75.150744]).addTo(mymap).bindPopup('Temple University Hospital');
 		L.marker([42.349832, -71.063271]).addTo(mymap).bindPopup('Tufts Medical Center');
@@ -212,10 +217,7 @@
 		L.marker([42.282121, -83.727352]).addTo(mymap).bindPopup('University of Michigan');
 		L.marker([35.904202, -79.052878]).addTo(mymap).bindPopup('University of North Carolina Hospitals');
 		L.marker([39.949968, -75.193004]).addTo(mymap).bindPopup('University of Pennsylvania');
-		L.marker([43.122824, -77.625281]).addTo(mymap).bindPopup('University of Rochester');
 		L.marker([34.062583, -118.202475]).addTo(mymap).bindPopup('University of Southern California/LAC+USC Medical Center');
-		L.marker([40.436137, -79.985285]).addTo(mymap).bindPopup('UPMC Medical Education (Mercy)');
-		L.marker([40.442561, -79.960983]).addTo(mymap).bindPopup('UPMC Medical Education');
 		L.marker([36.1437, -86.801026]).addTo(mymap).bindPopup('Vanderbilt University Medical Center');
 		L.marker([36.09027, -80.271456]).addTo(mymap).bindPopup('Wake Forest University School of Medicine');
 		L.marker([38.635073, -90.262286]).addTo(mymap).bindPopup('Washington University/B-JH/SLCH Consortium');
@@ -235,6 +237,7 @@
     L.marker([41.788313, -87.604566], {icon: rejection}).addTo(mymap).bindPopup("University of Chicago <br><br> <strong>Rejected</strong>: 10/24/2016");
     L.marker([39.288127, -76.623206], {icon: rejection}).addTo(mymap).bindPopup("University of Maryland <br><br> <strong>Rejected</strong>: 10/25/2016");
     L.marker([47.650694, -122.309134], {icon: rejection}).addTo(mymap).bindPopup("University of Washington <br><br> <strong>Rejected</strong>: 11/1/2016");
+    L.marker([39.995618, -83.017674], {icon: rejection}).addTo(mymap).bindPopup("Ohio State University Hospital <br><br> <strong>Rejected</strong>: 11/3/2016");
 
 		var popup = L.popup();
 	</script>
