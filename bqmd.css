@@ -3,7 +3,7 @@
   background-image:;
 }
 
-.introduction h5 {
+.introduction h6 {
   color: Gray;
 }
 
@@ -18,9 +18,4 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  position: fixed;
-}
-
-.footer h6 small {
-  color: Gray;
 }
