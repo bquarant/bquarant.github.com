@@ -13,6 +13,11 @@
   color: Gray;
 }
 
+.content-icon {
+  font-size: 2em;
+  color: Gray;
+}
+
 .footer {
   text-align: center;
   bottom: 0;
