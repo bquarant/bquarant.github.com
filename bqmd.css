@@ -14,8 +14,8 @@
 }
 
 .content-icon {
-  font-size: 2em;
-  color: Gray;
+  font-size: 2em !important;
+  color: Gray !important;
 }
 
 .footer {
