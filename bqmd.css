@@ -1,0 +1,23 @@
+.introduction{
+  text-align: center;
+  background-image:;
+}
+
+.introduction h5 {
+  color: Gray;
+}
+
+.contacts {
+  text-align: center;
+  font-size: 2em;
+  color: Gray;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  text-align: center;
+}
