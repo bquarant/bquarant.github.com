@@ -1,0 +1,44 @@
+body {font-family: 'Open Sans', sans-serif;}keyl
+
+/* don't print urls */
+a:after, a:link:after, a:visited:after { content:" "; }
+
+.title{
+	font-weight:bold;
+	font-size: 102%;
+}
+
+.details{}
+
+.fixed { :100vh; overflow:hidden; background:; }
+
+@media screen{
+	.scrollit { height:100vh; overflow-y:scroll; background:; }
+}
+
+@media print {
+				.scrollit {
+						height:; overflow-y:hidden; background:;
+									}
+}
+
+* {font-size: 12px;}
+}
+
+/* Apply padding to td elements that are direct children of the tr element. */
+tr.spaceUnder > td
+{
+  padding-bottom: 5px;
+}
+
+@media print {
+	 				.dontPrint {
+       								display:none;
+    								  }
+}
+
+/* quick fix for borderless tables */
+.table-borderless td,
+.table-borderless th {
+    border: 0 !important;
+}
