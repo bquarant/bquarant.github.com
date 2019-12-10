@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 lsi: false
 safe: true
 source: bquarant.github.com
@@ -8,3 +9,9 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+=======
+name: bqmd.org
+markdown: kramdown
+
+theme: jekyll-theme-minimal
+>>>>>>> 12721125f58092d8703e9c4cac17096c285ae2d0
