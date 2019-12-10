@@ -10,7 +10,7 @@ title: bqmd.org
   <div class="media">
     <i class="align-self-start mr-3 fas fa-globe-americas content-icon"></i>
     <div class="media-body">
-      <h5 class="mt-0"><a href="/projects/progress/posts/08-December-2019-Hello-World.html"><mark>Hello World</mark></a><br><small>9 December 2019</small></h5>
-      <p>Rebooting the <a href="http://bqmd.org">bqmd.org</a> web presence, generating content, and creating change</p>
+      <h5 class="mt-0"><a href=""><mark>Hello World</mark></a><br><small>9 December 2019</small></h5>
+      <p>Rebooting the <a href="http://bqmd.org">bqmd.org</a> web presence, generating content, and creating change...</p>
     </div>
   </div>
