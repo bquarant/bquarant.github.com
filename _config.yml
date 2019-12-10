@@ -1,2 +1,4 @@
 name: bqmd.org
 markdown: kramdown
+
+theme: jekyll-theme-minimal
