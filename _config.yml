@@ -1,5 +1,4 @@
 lsi: false
-safe: true
 source: bquarant.github.com
 incremental: false
 highlighter: rouge
