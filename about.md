@@ -1,5 +1,5 @@
 ---
-layout: page
-title: About
+layout: default
+title: bqmd.org/about
 permalink: /about/
 ---
