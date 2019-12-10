@@ -14,6 +14,3 @@ title: bqmd.org
       <p>Rebooting the <a href="http://bqmd.org">bqmd.org</a> web presence, generating content, and creating change</p>
     </div>
   </div>
-  <div class"container">
-  <p>Ubuntu Push</p>
-  </div>
