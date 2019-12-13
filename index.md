@@ -2,15 +2,3 @@
 layout: default
 title: bqmd.org
 ---
-
-<div class="container content">
-<h6><a href="http://bqmd.org/">Home</a> / <a href="http://bqmd.org/projects/">Projects</a> / <a href="http://bqmd.org/projects/progress/">Progress Notes</a> / About </h6>
-<br><br>
-
-  <div class="media">
-    <i class="align-self-start mr-3 fas fa-globe-americas content-icon"></i>
-    <div class="media-body">
-      <h5 class="mt-0"><a href=""><mark>Hello World</mark></a><br><small>9 December 2019</small></h5>
-      <p>Rebooting the <a href="http://bqmd.org">bqmd.org</a> web presence, generating content, and creating change...</p>
-    </div>
-  </div>
