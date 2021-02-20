@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
 
 /*
 	Lens by HTML5 UP
@@ -176,7 +176,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 400;
+		font-weight: 700;
 		line-height: 1.25;
 		margin: 0 0 0.5em 0;
 		color: #555;
@@ -941,6 +941,8 @@ input, select, textarea {
 
 	#footer {
 		padding: 2.25em 2.25em 1em 2.25em ;
+		position: absolute;
+		bottom: 0;
 	}
 
 		#footer .copyright {
@@ -951,6 +953,7 @@ input, select, textarea {
 			#footer .copyright li {
 				display: inline-block;
 				font-size: 0.8em;
+				text-align: center;
 				margin-left: 0.35em;
 				padding: 0;
 			}
