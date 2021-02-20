@@ -57,6 +57,7 @@
 </body>
 <script>
     $(document).ready(function() {
+      var clickCounter = 1;
         $('img').click(function(e) {
             var offset = $(this).offset();
             var X = (e.pageX - offset.left);
